@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.36377198"
-     inkscape:cx="4735.1654"
-     inkscape:cy="-972.10892"
+     inkscape:zoom="0.47852957"
+     inkscape:cx="6336.5201"
+     inkscape:cy="-2035.3245"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="994"
@@ -333,6 +333,68 @@
          y="-11659.204"
          transform="scale(1,-1)" />
     </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu-tooltip="Change colors to a duotone palette"
+       inkscape:menu="Color"
+       inkscape:label="Duotone"
+       id="filter38380-0-4">
+      <feColorMatrix
+         result="result1"
+         values="0"
+         type="saturate"
+         id="feColorMatrix38382-0-8" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood38384-1-9" />
+      <feBlend
+         result="result2"
+         mode="screen"
+         in2="result1"
+         id="feBlend38386-7-6" />
+      <feComposite
+         in="result2"
+         operator="in"
+         in2="SourceGraphic"
+         id="feComposite38388-99-2" />
+    </filter>
+    <filter
+       id="filter8907"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood8909"
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite8911"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur8913"
+         in="composite"
+         stdDeviation="4"
+         result="blur" />
+      <feOffset
+         id="feOffset8915"
+         dx="5"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite8917"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
   </defs>
   <metadata
      id="metadata50101">
@@ -351,6 +413,52 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#403d3c;fill-opacity:1;stroke:none"
+       id="rect5165"
+       width="1005.8848"
+       height="688.55737"
+       x="5887.9917"
+       y="2438.3174" />
+    <image
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       width="847.88196"
+       height="635.9115"
+       xlink:href="file:///home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/mm-sekula.jpg"
+       id="image5167"
+       x="5888.4902"
+       y="2436.4155" />
+    <g
+       id="g7905"
+       transform="translate(4.8228855,-0.82288552)">
+      <rect
+         y="3038.0483"
+         x="6547.7441"
+         height="43.176132"
+         width="227.07097"
+         id="rect7750"
+         style="fill:#cccccc;fill-opacity:1;stroke:none" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot7762"
+         style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(3091.1355,1755.3901)"><flowRegion
+           id="flowRegion7764"><rect
+             id="rect7766"
+             width="393.59387"
+             height="150.38649"
+             x="3463.575"
+             y="1286.5936"
+             style="fill:#000000" /></flowRegion><flowPara
+           id="flowPara7768"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed">Les cargos et la figure du conteneur ont changé </flowPara><flowPara
+           id="flowPara7794"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed">le visage du commerce international. </flowPara></flowRoot>    </g>
     <rect
        y="2438.3174"
        x="4209.5591"
@@ -7642,7 +7750,7 @@
          sodipodi:nodetypes="ccc" />
     </g>
     <image
-       transform="matrix(0.69192563,0,0,0.60752361,4797.4927,-2208.3621)"
+       transform="matrix(0.69192563,0,0,0.60752361,4877.4927,-2234.3621)"
        width="264.85049"
        height="198.63786"
        id="image8778"
@@ -7736,33 +7844,17 @@
    style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
    id="flowSpan8336">|</flowSpan>  Two texts of Carla Lonz<flowSpan
    style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
-   id="flowSpan14440">i. </flowSpan><flowSpan
-   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
-   id="flowSpan8340"> |</flowSpan><flowSpan
-   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
-   id="flowSpan14442">  Feminism as a daemon and also this way of how culture perceives an idea that i contradictory but that is not contradictory. A thought from the double. That is not logocentric.  </flowSpan><flowSpan
-   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
-   id="flowSpan8338">|</flowSpan><flowSpan
-   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
-   id="flowSpan14444">  Extrait : The Spell  </flowSpan><flowSpan
-   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
-   id="flowSpan8342">|</flowSpan><flowSpan
-   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
-   id="flowSpan14446">  Th</flowSpan>en there was a performance act. A freak showed I ran for one hundred days.  |  </flowSpan><flowSpan
-   style="font-size:15px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic"
-   id="flowSpan8104">“</flowSpan><flowSpan
-   style="font-size:15px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic"
-   id="flowSpan8100">Ich verkörpere die Freaks der Gegenwart und Zukunft. Meine Kunst ist eine Freakshow. Ich brauche eine Gestalt, in die ich schlüpfen kann, aber es geht mir nicht um historische Vorbilder. Meine Performance ist ganz und gar heutig</flowSpan><flowSpan
-   style="font-size:15px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic"
-   id="flowSpan8106">.”</flowSpan><flowSpan
+   id="flowSpan14440">i.  |  Feminism as a daemon and also this way of how culture perceives an idea that i contradictory but that is not contradictory. A thought from the double. That is not logocentric.  |  Extrait : The Spell  |  Th</flowSpan>en there was a performance act. A freak showed I ran for one hundred days.  |  </flowSpan><flowSpan
+   id="flowSpan5498"
+   style="font-size:21px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:64.99999762%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium">Ich ver orpere die Frea s der Gegen art und  u unft. Meine unst ist eine Frea sho   Ich brauche eine Gestalt, in die ich schl pfen ann, aber es geht mir nicht um historische Vorbilder. Meine Performance ist gan und gar heutig.</flowSpan><flowSpan
    style="line-height:125%"
    id="flowSpan8110">|  This Zaluma ... was called the Star of the East, which means L<flowSpan
    style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
    id="flowSpan14448">ucifer  |</flowSpan>  She was a perfomer of the Barnum Museum, she has never been famous, she was a B character.  |  I was very fascinated by the fact that she never spoke on the stage  |  How many feminists are in this room?  |  Who is not fully feminist?  |  Do you know who said that ideology is also my adventure?  |  Adventure and ideology are incompatible  |  I am my own adventure  |  One day of depression one year of depression one hundred years of depression  |  I discard ideology and I no longer know anything  |  <flowSpan
    style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
    id="flowSpan8344">Losing my way is my proof </flowSpan> |  I no longer have a glamourous moment at my disposition  |           |  I lose attractiveness  |  But you will not find an anchor-point in me!  |  Who said that emancipation has been unmasked ?  |  You court me now because you fear that I will be the interlocutor with the world that you  |  You wait for identity from me and cannot make up your own.  |  You were given an identity by man and cannot give it up.  |  You burden me with your conflict and are hostile to me  |                                                                                  You assault my integrity  |  You would like to put me on a pedestal  |  You would like to keep me under your guardianship  |  I distance myself and you do not forgive me  |  You do not know who I am and you make yourself my mediator.  |  What I have to say I will say on my own  |  Who said that you helped my cause?  |  I helped your career  |  But by appearing I spoiled your party  |  Provocation is a gesture of attachment  |  You force me to be present at painful revenges on a note of defiance  |  You celebrate a myth that fell with me  |  Who said that culture is a sublime goal ?  |  It is the sublime goal of self-destruction  |                   |  In acquiring culture you have complied unreservedly with a request that excludes you  |  You have wanted to participate without existing on your own  |  Ultimately you are unrecognizable  |  And while this has been happening, you have sufferred from a feeling of inadequacy. You claim solidarity because you went to the fight  |  To my mind you have got yourself into a mess  |  You have given your life to show that we are mediocre  |  You have got stuck while climbing the phallus  |  It seemed a question of time before you succeeded  |  They continue to tell you that your mediocrity is temporary  |  I see you stuck there forever  |  You will come to envy my nothing  |  Who said that you do not know power?  |  </flowSpan><flowSpan
-   style="font-size:15px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic"
-   id="flowSpan8102">“Ich glaube nicht, dass Freakshows etwas Schlechtes sind. Der Freak hat die Macht, er gestaltet die Welt. Er soll sich zeigen.”</flowSpan><flowSpan
+   style="font-size:21px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:64.99999762%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium"
+   id="flowSpan8102">Ich glaube nicht dass Freashos et as Schlechtes sind. Der Frea hat die Macht, er gestaltet die elt. Er soll sich eigen</flowSpan><flowSpan
    style="line-height:125%"
    id="flowSpan8112"> |  To occupy oneself with’ is intellectual arrogance. The </flowSpan>more you occupy yourself with women the more estranged you become from me.  |  Do you know what exposing yourself means? You search for error without being prepared to risk anything  |  Who said that was self-awareness? That would be a pantomime for fools. It would be over before it even started.  |  It has become swamped in misunderstandings  |  It has vanished into stale air  |  Don’t talk to me if you have ‘experienced self-awareness’.  |  Self-awareness is the other one  |  Have you heard about the ‘double militancy’?  |  And about ‘the private is political’? And the one about ‘you are not doing enough’?  |  I have found my source of humour.  |  fin de la performance.</flowPara></flowRoot>    <rect
        ry="0"
@@ -7897,28 +7989,128 @@
            width="393.59387"
            id="rect6245" /></flowRegion><flowPara
          style="font-size:15px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic"
-         id="flowPara6249">«Les cargos et la figure du conteneur, ont changé le visage du commerce international, transformant les bateaux en entrepôts flottant, et les usines en navires, voguant vers d’autres pays à la faveur de la nuit pour trouver une main-d’œuvre toujours moins chère»</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot10036"
+         id="flowPara6249">«Les cargos et la figure du conteneur, ont changé le visage du commerce international, transformant les bateaux en entrepôts flottant, et les usines en navires, voguant vers d’autres pays à la faveur de la nuit pour trouver une main-d’œuvre toujours moins chère»</flowPara></flowRoot>    <g
+       transform="matrix(1.0066829,0,0,1.0066829,5776.0305,-8247.9351)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(1.0066829,0,0,1.0066829,5776.0305,-8247.9351)"><flowRegion
-         id="flowRegion10038"><rect
-           style="fill:#000000"
-           id="rect10040"
-           width="228.11656"
-           height="94.494637"
-           x="-1604.6892"
-           y="12936.552" /></flowRegion><flowPara
-         style="font-size:26.82075882px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
-         id="flowPara10042">CHUT UP</flowPara><flowPara
-         style="font-size:26.82075882px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
-         id="flowPara8061">ACTUALLY SPEAK</flowPara><flowPara
-         id="flowPara10048"
-         style="font-size:18px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic">Chiara Fumai </flowPara><flowPara
-         style="font-size:18px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic"
-         id="flowPara8059">actually speak</flowPara><flowPara
-         style="font-size:18px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic"
-         id="flowPara10046" /></flowRoot>    <flowRoot
+       id="flowRoot10036">
+      <path
+         d="m -1596.6465,12943.414 c -1.0215,0 -1.8291,0.598 -2.4228,1.794 -0.5849,1.196 -0.8774,2.859 -0.8774,4.99 0,4.435 1.1568,6.652 3.4704,6.652 1.0128,0 2.0736,-0.323 3.1824,-0.969 l 0,3.169 c -0.9342,0.62 -2.1303,0.93 -3.5883,0.93 -2.1565,0 -3.8154,-0.855 -4.9765,-2.567 -1.1525,-1.719 -1.7287,-4.134 -1.7287,-7.242 0,-3.108 0.5937,-5.531 1.781,-7.268 1.1961,-1.737 2.855,-2.606 4.9765,-2.606 0.6985,0 1.3664,0.1 2.0037,0.288 0.6461,0.192 1.3358,0.528 2.0692,1.008 l -1.1786,2.895 c -0.3929,-0.271 -0.812,-0.515 -1.2572,-0.734 -0.4453,-0.227 -0.9299,-0.34 -1.4537,-0.34"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5437" />
+      <path
+         d="m -1578.7573,12959.718 -3.5621,0 0,-8.394 -4.7015,0 0,8.394 -3.5621,0 0,-19.146 3.5621,0 0,7.609 4.7015,0 0,-7.609 3.5621,0 0,19.146"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5439" />
+      <path
+         d="m -1563.6182,12940.572 0,12.389 c 0,2.279 -0.5151,4.02 -1.5453,5.225 -1.0303,1.196 -2.5189,1.794 -4.4658,1.794 -1.9033,0 -3.3526,-0.593 -4.3479,-1.781 -0.9953,-1.196 -1.493,-2.959 -1.493,-5.291 l 0,-12.336 3.536,0 0,12.598 c 0,2.436 0.8076,3.654 2.4228,3.654 0.7508,0 1.3314,-0.31 1.7417,-0.93 0.4104,-0.62 0.6155,-1.501 0.6155,-2.645 l 0,-12.677 3.536,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5442" />
+      <path
+         d="m -1554.4248,12959.718 -3.549,0 0,-16.016 -3.6669,0 0,-3.13 10.8828,0 0,3.13 -3.6669,0 0,16.016"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5444" />
+      <path
+         d="m -1530.3018,12940.572 0,12.389 c 0,2.279 -0.5151,4.02 -1.5453,5.225 -1.0303,1.196 -2.5189,1.794 -4.4658,1.794 -1.9033,0 -3.3526,-0.593 -4.3479,-1.781 -0.9953,-1.196 -1.4929,-2.959 -1.4929,-5.291 l 0,-12.336 3.5359,0 0,12.598 c 0,2.436 0.8076,3.654 2.4228,3.654 0.7508,0 1.3314,-0.31 1.7417,-0.93 0.4104,-0.62 0.6155,-1.501 0.6156,-2.645 l 0,-12.677 3.5359,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5446" />
+      <path
+         d="m -1516.5509,12946.465 c 0,2.034 -0.5151,3.597 -1.5454,4.689 -1.0215,1.082 -2.5013,1.623 -4.4395,1.623 l -0.8906,0 0,6.941 -3.5621,0 0,-19.146 4.8586,0 c 3.7193,0 5.579,1.964 5.579,5.893 m -6.8755,3.222 0.681,0 c 0.8731,0 1.5235,-0.24 1.9513,-0.721 0.4278,-0.48 0.6417,-1.265 0.6418,-2.357 -10e-5,-1.004 -0.1965,-1.746 -0.5894,-2.226 -0.3929,-0.489 -0.9996,-0.734 -1.8203,-0.734 l -0.8644,0 0,6.038"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5448" />
+      <path
+         d="m -1593.9356,12989.221 -1.1001,-4.832 -4.9896,0 -1.1001,4.832 -3.5621,0 4.7408,-19.225 4.8324,0 4.7539,19.225 -3.5752,0 m -1.768,-7.988 -1.0215,-4.453 c -0.061,-0.271 -0.2008,-0.947 -0.4191,-2.03 -0.2095,-1.091 -0.3361,-1.82 -0.3797,-2.187 -0.1136,0.751 -0.2576,1.58 -0.4322,2.488 -0.1746,0.9 -0.6286,2.96 -1.362,6.182 l 3.6145,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5450" />
+      <path
+         d="m -1582.2932,12972.917 c -1.0215,0 -1.8291,0.598 -2.4228,1.794 -0.585,1.196 -0.8774,2.859 -0.8774,4.989 0,4.436 1.1568,6.653 3.4704,6.653 1.0128,0 2.0736,-0.323 3.1824,-0.969 l 0,3.169 c -0.9342,0.62 -2.1303,0.93 -3.5883,0.93 -2.1565,0 -3.8154,-0.855 -4.9766,-2.567 -1.1524,-1.72 -1.7286,-4.134 -1.7286,-7.242 0,-3.108 0.5937,-5.531 1.781,-7.268 1.1961,-1.737 2.855,-2.606 4.9765,-2.606 0.6985,0 1.3664,0.1 2.0037,0.288 0.6461,0.192 1.3358,0.528 2.0692,1.008 l -1.1786,2.895 c -0.3929,-0.271 -0.812,-0.516 -1.2573,-0.734 -0.4452,-0.227 -0.9298,-0.34 -1.4536,-0.34"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5452" />
+      <path
+         d="m -1570.3496,12989.221 -3.549,0 0,-16.016 -3.6669,0 0,-3.13 10.8828,0 0,3.13 -3.6669,0 0,16.016"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5454" />
+      <path
+         d="m -1552.8794,12970.075 0,12.389 c 0,2.278 -0.5152,4.02 -1.5454,5.225 -1.0302,1.196 -2.5188,1.794 -4.4657,1.794 -1.9033,0 -3.3526,-0.593 -4.3479,-1.781 -0.9953,-1.196 -1.493,-2.96 -1.493,-5.291 l 0,-12.336 3.536,0 0,12.598 c 0,2.436 0.8075,3.654 2.4227,3.654 0.7509,0 1.3315,-0.31 1.7418,-0.93 0.4103,-0.62 0.6155,-1.501 0.6155,-2.645 l 0,-12.677 3.536,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5456" />
+      <path
+         d="m -1540.5036,12989.221 -1.1001,-4.832 -4.9896,0 -1.1001,4.832 -3.5621,0 4.7408,-19.225 4.8324,0 4.7539,19.225 -3.5752,0 m -1.768,-7.988 -1.0215,-4.453 c -0.061,-0.271 -0.2008,-0.947 -0.4191,-2.03 -0.2095,-1.091 -0.3361,-1.82 -0.3798,-2.187 -0.1135,0.751 -0.2575,1.58 -0.4321,2.488 -0.1747,0.9 -0.6287,2.96 -1.362,6.182 l 3.6145,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5458" />
+      <path
+         d="m -1535.2128,12989.221 0,-19.146 3.5621,0 0,16.029 4.9372,0 0,3.117 -8.4993,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5460" />
+      <path
+         d="m -1524.4217,12989.221 0,-19.146 3.5622,0 0,16.029 4.9372,0 0,3.117 -8.4994,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5462" />
+      <path
+         d="m -1509.7541,12977.631 2.5538,-7.556 3.7324,0 -4.5444,11.472 0,7.674 -3.5097,0 0,-7.53 -4.5313,-11.616 3.7586,0 2.5406,7.556"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5464" />
+      <path
+         d="m -1486.4169,12983.944 c 0,1.789 -0.454,3.16 -1.362,4.112 -0.8992,0.951 -2.2001,1.427 -3.9026,1.427 -1.6676,0 -3.0863,-0.327 -4.2562,-0.982 l 0,-3.523 c 1.4318,0.934 2.7458,1.401 3.9419,1.401 0.681,0 1.1917,-0.187 1.5323,-0.563 0.3492,-0.375 0.5238,-0.886 0.5238,-1.532 0,-0.637 -0.2052,-1.218 -0.6155,-1.742 -0.4104,-0.532 -1.087,-1.122 -2.0299,-1.768 -0.8207,-0.567 -1.4449,-1.108 -1.8728,-1.624 -0.419,-0.523 -0.7464,-1.108 -0.9822,-1.754 -0.227,-0.647 -0.3405,-1.397 -0.3405,-2.253 0,-1.641 0.454,-2.942 1.362,-3.903 0.9168,-0.96 2.1434,-1.44 3.68,-1.44 1.4668,0 2.8768,0.41 4.2301,1.231 l -1.1787,2.855 c -0.4191,-0.245 -0.86,-0.463 -1.3227,-0.655 -0.454,-0.192 -0.9429,-0.288 -1.4667,-0.288 -0.5763,0 -1.0215,0.192 -1.3358,0.576 -0.3056,0.376 -0.4584,0.891 -0.4584,1.545 0,0.647 0.1833,1.21 0.55,1.69 0.3754,0.48 1.0259,1.026 1.9513,1.637 1.2485,0.838 2.1172,1.694 2.6062,2.567 0.4976,0.873 0.7464,1.868 0.7464,2.986"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5466" />
+      <path
+         d="m -1473.5958,12975.968 c 0,2.034 -0.5151,3.597 -1.5453,4.688 -1.0215,1.083 -2.5014,1.624 -4.4396,1.624 l -0.8905,0 0,6.941 -3.5622,0 0,-19.146 4.8587,0 c 3.7192,0 5.5789,1.964 5.5789,5.893 m -6.8754,3.222 0.681,0 c 0.873,0 1.5235,-0.24 1.9513,-0.721 0.4278,-0.48 0.6417,-1.266 0.6417,-2.357 0,-1.004 -0.1965,-1.746 -0.5894,-2.226 -0.3928,-0.489 -0.9996,-0.734 -1.8203,-0.734 l -0.8643,0 0,6.038"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5468" />
+      <path
+         d="m -1462.5689,12989.221 -8.6303,0 0,-19.146 8.6303,0 0,3.077 -5.0682,0 0,4.558 4.7015,0 0,3.091 -4.7015,0 0,5.303 5.0682,0 0,3.117"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5470" />
+      <path
+         d="m -1450.717,12989.221 -1.1,-4.832 -4.9896,0 -1.1001,4.832 -3.5621,0 4.7407,-19.225 4.8325,0 4.7539,19.225 -3.5753,0 m -1.7679,-7.988 -1.0215,-4.453 c -0.061,-0.271 -0.2008,-0.947 -0.4191,-2.03 -0.2095,-1.091 -0.3361,-1.82 -0.3798,-2.187 -0.1135,0.751 -0.2576,1.58 -0.4322,2.488 -0.1746,0.9 -0.6286,2.96 -1.362,6.182 l 3.6146,0"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5472" />
+      <path
+         d="m -1433.4956,12989.221 -3.7979,0 -3.143,-8.185 -1.4275,1.428 0,6.757 -3.5621,0 0,-19.146 3.5621,0 0,9.494 1.2441,-2.868 3.2609,-6.626 3.811,0 -4.4265,8.29 4.4789,10.856"
+         style="font-size:26.82075882px;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="path5474" />
+      <path
+         d="m -1603.2869,13010.578 c -0.4172,-0.745 -0.5364,-1.639 -0.4172,-2.473 0.149,-0.835 0.5364,-1.61 0.9835,-2.355 0.5662,-0.864 1.192,-1.669 2.0264,-2.294 0.8344,-0.596 1.8477,-1.014 2.8609,-0.984 0.6556,0 1.3112,0.179 1.8178,0.566 0.5067,0.388 0.8941,0.984 0.9239,1.61 0.03,0.238 0,0.447 -0.089,0.655 -0.06,0.209 -0.2086,0.418 -0.3874,0.537 -0.1788,0.119 -0.4173,0.179 -0.6259,0.149 -0.1192,-0.03 -0.2384,-0.09 -0.3278,-0.149 -0.089,-0.06 -0.149,-0.149 -0.2086,-0.268 -0.06,-0.179 -0.06,-0.388 -0.03,-0.597 0.03,-0.208 0.089,-0.417 0.06,-0.596 -0.03,-0.298 -0.1788,-0.566 -0.4172,-0.745 -0.2086,-0.178 -0.5066,-0.268 -0.8046,-0.268 -0.2682,-0.03 -0.5662,0.06 -0.8344,0.179 -0.2682,0.09 -0.5066,0.268 -0.7153,0.417 -1.0132,0.775 -1.7284,1.848 -2.2052,3.01 -0.2086,0.537 -0.3874,1.073 -0.4172,1.639 -0.03,0.566 0.089,1.133 0.3874,1.609 0.3874,0.596 1.043,0.954 1.7284,1.103 0.6855,0.179 1.4007,0.119 2.1159,0.03 0.8642,-0.09 1.7284,-0.268 2.4139,-0.805 0.2384,-0.179 0.4768,-0.417 0.745,-0.536 0.149,-0.06 0.298,-0.09 0.447,-0.09 0.1788,0.03 0.3278,0.09 0.4172,0.209 0.089,0.119 0.1192,0.298 0.089,0.447 -0.03,0.149 -0.089,0.298 -0.2086,0.387 -0.2086,0.239 -0.5364,0.328 -0.8046,0.447 -1.0132,0.328 -2.0265,0.626 -3.0397,0.805 -1.043,0.149 -2.1159,0.179 -3.1291,-0.09 -0.4768,-0.12 -0.9238,-0.298 -1.341,-0.537 -0.4172,-0.268 -0.7451,-0.626 -1.0133,-1.013"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5476" />
+      <path
+         d="m -1590.6695,13011.114 c -0.089,0.269 -0.1788,0.567 -0.3278,0.805 -0.089,0.119 -0.2086,0.209 -0.3278,0.268 -0.1192,0.06 -0.2682,0.09 -0.4172,0.06 -0.1192,0 -0.2384,-0.09 -0.3278,-0.179 -0.089,-0.09 -0.149,-0.209 -0.2086,-0.358 -0.06,-0.238 -0.03,-0.506 0.03,-0.774 0.149,-0.626 0.4172,-1.192 0.6854,-1.759 1.3708,-2.801 2.6225,-5.662 3.5761,-8.612 0.2682,-0.805 0.5066,-1.609 0.596,-2.474 0,-0.208 0.03,-0.417 0.1192,-0.596 0.089,-0.238 0.3278,-0.417 0.5662,-0.476 0.2683,-0.06 0.5365,0.03 0.7153,0.208 0.1192,0.119 0.1788,0.239 0.2384,0.388 0.03,0.149 0.06,0.298 0.06,0.447 -0.03,0.298 -0.1192,0.596 -0.2384,0.864 -0.6258,1.758 -1.3411,3.487 -2.0265,5.185 0.745,-0.477 1.5795,-0.894 2.4735,-0.983 0.5364,-0.03 1.0728,0.03 1.5496,0.238 0.4768,0.209 0.8941,0.566 1.1623,1.013 0.2384,0.477 0.298,1.014 0.2384,1.52 -0.06,0.537 -0.2384,1.043 -0.447,1.52 -0.4471,0.954 -1.1027,1.818 -1.3709,2.831 -0.06,0.239 -0.089,0.447 -0.089,0.686 0.03,0.119 0.06,0.208 0.089,0.327 0.06,0.09 0.1192,0.179 0.2086,0.239 0.089,0.09 0.2086,0.119 0.3278,0.149 0.089,0.03 0.2086,0.03 0.3278,0 0.2384,0 0.4471,-0.119 0.6259,-0.209 0.2086,-0.09 0.4172,-0.208 0.596,-0.328 0.149,-0.09 0.298,-0.178 0.4768,-0.238 0.089,0 0.1788,0 0.2682,0.03 0.06,0.03 0.149,0.09 0.1788,0.179 0.03,0.06 0.03,0.149 0.03,0.208 -0.03,0.06 -0.06,0.149 -0.1192,0.209 -0.1192,0.09 -0.2384,0.179 -0.3874,0.238 -0.5662,0.298 -1.1324,0.656 -1.7881,0.775 -0.3278,0.06 -0.6556,0.06 -0.9834,-0.03 -0.298,-0.09 -0.596,-0.268 -0.7748,-0.536 -0.1788,-0.239 -0.2682,-0.566 -0.2682,-0.864 0,-0.298 0.06,-0.596 0.149,-0.894 0.3278,-1.163 1.0132,-2.176 1.4006,-3.278 0.1192,-0.298 0.2086,-0.596 0.2384,-0.894 0.03,-0.298 0,-0.596 -0.089,-0.865 -0.149,-0.417 -0.4768,-0.745 -0.8344,-0.924 -0.3874,-0.208 -0.8344,-0.268 -1.2516,-0.208 -0.4172,0.03 -0.8345,0.208 -1.1921,0.417 -0.3576,0.238 -0.6854,0.536 -0.9536,0.864 -0.298,0.328 -0.5364,0.686 -0.745,1.073 -0.03,0.06 -0.03,0.119 -0.06,0.179 -0.6258,1.52 -1.2517,3.01 -1.6987,4.559"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5478" />
+      <path
+         d="m -1573.1647,12999.462 c 0.1788,0.269 0.6258,0.388 0.9238,0.298 0.596,-0.238 1.0132,-0.983 0.9834,-1.609 0,-0.358 -0.2682,-0.745 -0.6258,-0.894 -0.3874,-0.149 -0.9536,-0.03 -1.2218,0.298 -0.4172,0.507 -0.4172,1.401 -0.06,1.907 m -5.2152,9.447 c 0.8642,-0.477 1.7285,-1.073 2.3543,-1.847 0.1788,-0.209 0.298,-0.418 0.447,-0.656 0.149,-0.268 0.298,-0.536 0.3874,-0.834 0.2086,-0.507 0.298,-1.044 0.3576,-1.61 0.03,-0.119 0.03,-0.268 0.089,-0.417 0.03,-0.149 0.06,-0.298 0.149,-0.417 0.149,-0.209 0.3874,-0.328 0.6557,-0.358 0.2384,0 0.5066,0.119 0.6556,0.328 0.089,0.119 0.1192,0.268 0.149,0.387 0.03,0.149 0.03,0.298 0.03,0.447 -0.03,0.745 -0.2384,1.491 -0.5662,2.146 -0.298,0.686 -0.7153,1.341 -1.1623,1.937 -0.2384,0.358 -0.4768,0.686 -0.6258,1.073 -0.149,0.387 -0.2384,0.834 -0.1192,1.222 0.089,0.268 0.2086,0.477 0.4172,0.655 0.1788,0.179 0.4172,0.328 0.6556,0.418 0.4768,0.149 1.0133,0.149 1.5199,0.03 0.447,-0.119 0.894,-0.298 1.2814,-0.536 0.149,-0.119 0.298,-0.209 0.4768,-0.238 0.089,-0.03 0.1788,-0.03 0.2682,0.03 0.03,0 0.06,0.03 0.089,0.06 0.03,0.03 0.06,0.09 0.06,0.119 0.03,0.06 0,0.119 0,0.179 -0.03,0.06 -0.06,0.09 -0.089,0.149 -0.089,0.06 -0.1788,0.119 -0.298,0.179 -1.0132,0.536 -2.1456,1.043 -3.3079,1.013 -0.5662,0 -1.1622,-0.179 -1.639,-0.477 -0.5066,-0.328 -0.8642,-0.834 -1.0132,-1.4 -0.06,-0.358 -0.06,-0.716 0.03,-1.073 0,-0.06 0.03,-0.119 0.03,-0.179 -0.3576,0.179 -0.7153,0.358 -1.0729,0.536 -0.1192,0.06 -0.2086,0.09 -0.3278,0.12 -0.06,0.03 -0.089,0.03 -0.149,0.03 -0.06,-0.03 -0.1192,-0.03 -0.1788,-0.06 -0.03,-0.03 -0.06,-0.09 -0.089,-0.119 -0.03,-0.06 -0.03,-0.09 -0.03,-0.149 -0.03,-0.12 0,-0.209 0.06,-0.298 0.06,-0.09 0.149,-0.149 0.2384,-0.239 0.089,-0.06 0.1788,-0.09 0.2682,-0.149"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5480" />
+      <path
+         d="m -1561.0539,13011.204 c -0.089,-0.09 -0.149,-0.209 -0.149,-0.328 -0.03,-0.119 -0.03,-0.268 0,-0.358 0.06,-0.238 0.1788,-0.476 0.298,-0.685 0.9238,-1.639 1.7582,-3.338 2.4138,-5.126 0.1192,-0.298 0.2086,-0.596 0.2086,-0.924 0.03,-0.149 0,-0.298 -0.06,-0.447 -0.06,-0.149 -0.149,-0.298 -0.2682,-0.387 -0.089,-0.09 -0.2384,-0.149 -0.3874,-0.179 -0.1192,-0.03 -0.2682,0 -0.3874,0.06 -0.149,0.03 -0.2682,0.119 -0.3576,0.238 -0.089,0.119 -0.149,0.239 -0.149,0.388 -0.03,0.149 0,0.327 0,0.476 0,0.567 -0.2086,1.133 -0.4172,1.64 -0.5066,1.221 -0.9834,2.413 -1.6093,3.546 -0.06,0.09 -0.1192,0.179 -0.149,0.268 -0.447,0.626 -0.9834,1.252 -1.6688,1.609 -0.3874,0.209 -0.8046,0.328 -1.2517,0.328 -0.4172,-0.03 -0.8642,-0.179 -1.192,-0.447 -0.3278,-0.328 -0.5066,-0.775 -0.596,-1.222 -0.06,-0.447 0,-0.894 0.089,-1.341 0.149,-0.894 0.4768,-1.758 0.9536,-2.533 0.4768,-0.775 1.1623,-1.43 1.9371,-1.848 0.2682,-0.149 0.5364,-0.268 0.8344,-0.327 0.298,-0.03 0.6258,-0.03 0.894,0.09 0.2086,0.119 0.3874,0.268 0.6258,0.358 0.09,0.03 0.2087,0.06 0.3279,0.03 0.1192,0 0.2384,-0.06 0.3278,-0.149 0.06,-0.09 0.089,-0.178 0.06,-0.298 0,-0.09 -0.03,-0.208 -0.1192,-0.268 -0.1192,-0.179 -0.298,-0.268 -0.5066,-0.357 -0.6855,-0.239 -1.4603,-0.179 -2.1755,0 -0.7152,0.208 -1.2814,0.506 -1.9371,1.043 -0.9238,0.774 -1.5794,1.4 -2.086,2.354 -0.5066,0.924 -0.7748,1.997 -0.6556,3.04 0.06,0.566 0.2384,1.162 0.5662,1.639 0.3576,0.476 0.8046,0.894 1.3708,1.072 0.3874,0.12 0.8344,0.15 1.2516,0.12 0.4173,-0.06 0.8047,-0.179 1.1921,-0.358 0.4768,-0.238 0.9238,-0.507 1.341,-0.805 0.06,0.149 0.1192,0.269 0.2086,0.418 0.149,0.178 0.3278,0.327 0.5066,0.417 0.3874,0.238 0.8345,0.298 1.2815,0.238 0.894,-0.06 1.6688,-0.566 2.4436,-0.983 0.089,-0.06 0.2086,-0.119 0.2683,-0.209 0.03,-0.03 0.089,-0.09 0.089,-0.119 0.03,-0.06 0.03,-0.119 0.03,-0.179 -0.03,-0.06 -0.03,-0.09 -0.06,-0.119 -0.03,-0.03 -0.089,-0.06 -0.1193,-0.09 -0.089,-0.03 -0.1788,-0.03 -0.2682,-0.03 -0.1788,0.06 -0.3278,0.149 -0.4768,0.268 -0.3874,0.238 -0.8344,0.387 -1.2814,0.536 -0.1788,0.06 -0.3874,0.12 -0.596,0.12 -0.1192,0 -0.2384,0 -0.3278,-0.03 -0.089,-0.03 -0.2086,-0.06 -0.2682,-0.149"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5482" />
+      <path
+         d="m -1537.19,13011.204 c -0.089,-0.09 -0.149,-0.209 -0.149,-0.328 -0.03,-0.119 -0.03,-0.268 0,-0.358 0.06,-0.238 0.1788,-0.476 0.298,-0.685 0.9238,-1.639 1.7583,-3.338 2.4139,-5.126 0.1192,-0.298 0.2086,-0.596 0.2086,-0.924 0.03,-0.149 0,-0.298 -0.06,-0.447 -0.06,-0.149 -0.149,-0.298 -0.2682,-0.387 -0.089,-0.09 -0.2384,-0.149 -0.3874,-0.179 -0.1192,-0.03 -0.2682,0 -0.3874,0.06 -0.149,0.03 -0.2682,0.119 -0.3577,0.238 -0.089,0.119 -0.149,0.239 -0.149,0.388 -0.03,0.149 0,0.327 0,0.476 0,0.567 -0.2086,1.133 -0.4172,1.64 -0.5066,1.221 -0.9834,2.413 -1.6092,3.546 -0.06,0.09 -0.1192,0.179 -0.149,0.268 -0.447,0.626 -0.9834,1.252 -1.6689,1.609 -0.3874,0.209 -0.8046,0.328 -1.2516,0.328 -0.4172,-0.03 -0.8642,-0.179 -1.192,-0.447 -0.3278,-0.328 -0.5066,-0.775 -0.5961,-1.222 -0.06,-0.447 0,-0.894 0.09,-1.341 0.149,-0.894 0.4768,-1.758 0.9536,-2.533 0.4768,-0.775 1.1622,-1.43 1.937,-1.848 0.2682,-0.149 0.5364,-0.268 0.8345,-0.327 0.298,-0.03 0.6258,-0.03 0.894,0.09 0.2086,0.119 0.3874,0.268 0.6258,0.358 0.089,0.03 0.2086,0.06 0.3278,0.03 0.1192,0 0.2384,-0.06 0.3278,-0.149 0.06,-0.09 0.089,-0.178 0.06,-0.298 0,-0.09 -0.03,-0.208 -0.1192,-0.268 -0.1192,-0.179 -0.298,-0.268 -0.5066,-0.357 -0.6854,-0.239 -1.4602,-0.179 -2.1755,0 -0.7152,0.208 -1.2814,0.506 -1.937,1.043 -0.9238,0.774 -1.5795,1.4 -2.0861,2.354 -0.5066,0.924 -0.7748,1.997 -0.6556,3.04 0.06,0.566 0.2384,1.162 0.5662,1.639 0.3576,0.476 0.8046,0.894 1.3709,1.072 0.3874,0.12 0.8344,0.15 1.2516,0.12 0.4172,-0.06 0.8046,-0.179 1.192,-0.358 0.4768,-0.238 0.9239,-0.507 1.3411,-0.805 0.06,0.149 0.1192,0.269 0.2086,0.418 0.149,0.178 0.3278,0.327 0.5066,0.417 0.3874,0.238 0.8344,0.298 1.2814,0.238 0.8941,-0.06 1.6689,-0.566 2.4437,-0.983 0.089,-0.06 0.2086,-0.119 0.2682,-0.209 0.03,-0.03 0.089,-0.09 0.089,-0.119 0.03,-0.06 0.03,-0.119 0.03,-0.179 -0.03,-0.06 -0.03,-0.09 -0.06,-0.119 -0.03,-0.03 -0.089,-0.06 -0.1192,-0.09 -0.089,-0.03 -0.1788,-0.03 -0.2682,-0.03 -0.1788,0.06 -0.3278,0.149 -0.4768,0.268 -0.3874,0.238 -0.8344,0.387 -1.2815,0.536 -0.1788,0.06 -0.3874,0.12 -0.596,0.12 -0.1192,0 -0.2384,0 -0.3278,-0.03 -0.089,-0.03 -0.2086,-0.06 -0.2682,-0.149"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5484" />
+      <path
+         d="m -1519.1074,13011.174 c 0,0.06 0.03,0.09 0.06,0.149 -0.5364,0.983 -1.0728,1.937 -1.639,2.921 -0.149,0.238 -0.3278,0.536 -0.3576,0.834 -0.03,0.149 0,0.298 0.06,0.447 0.06,0.149 0.149,0.268 0.298,0.328 0.149,0.09 0.3278,0.09 0.4768,0.03 0.149,-0.06 0.298,-0.149 0.4172,-0.269 0.2086,-0.268 0.3278,-0.596 0.447,-0.923 0.2682,-0.775 0.6556,-1.52 1.043,-2.295 0.089,-0.179 0.1788,-0.358 0.2682,-0.566 0.9835,0.298 1.9967,0.447 3.0099,0.506 1.5795,0.06 3.1291,-0.179 4.6192,-0.655 0.2086,-0.06 0.3874,-0.12 0.5364,-0.239 0.089,-0.09 0.149,-0.179 0.1788,-0.268 0.03,-0.09 0.03,-0.179 0,-0.268 -0.06,-0.119 -0.149,-0.209 -0.2384,-0.268 -0.1192,-0.03 -0.2384,-0.06 -0.3576,-0.03 -0.2384,0.03 -0.4471,0.179 -0.6557,0.298 -0.9238,0.536 -2.0264,0.745 -3.0992,0.655 -1.0729,-0.06 -2.1159,-0.387 -3.0695,-0.894 -0.089,-0.06 -0.1788,-0.09 -0.298,-0.149 0.3278,-0.625 0.6258,-1.281 0.9238,-1.907 0.2682,-0.596 0.5364,-1.192 0.8046,-1.788 0.03,-0.03 0.089,-0.03 0.1192,-0.06 1.5795,-0.984 3.0993,-2.116 4.3211,-3.517 1.0729,-1.192 1.9371,-2.682 2.0563,-4.261 0.03,-0.388 0.03,-0.745 -0.089,-1.103 -0.1192,-0.358 -0.3576,-0.656 -0.6854,-0.835 -0.1788,-0.09 -0.3576,-0.119 -0.5364,-0.119 -0.2087,0 -0.3875,0.03 -0.5663,0.09 -0.3576,0.119 -0.6556,0.357 -0.9536,0.596 -1.0132,0.924 -1.6688,2.145 -2.2947,3.367 -0.894,1.818 -1.6688,3.725 -2.4734,5.603 -1.1921,0.715 -2.4437,1.341 -3.7549,1.728 -0.1788,0.03 -0.3874,0.09 -0.5066,0.209 -0.089,0.06 -0.1491,0.119 -0.1789,0.208 -0.03,0.09 -0.06,0.179 -0.03,0.269 0.03,0.09 0.089,0.149 0.1789,0.208 0.06,0.03 0.149,0.06 0.2384,0.06 0.1788,0 0.3576,-0.06 0.5066,-0.119 1.043,-0.388 2.0562,-0.865 3.0397,-1.401 -0.1192,0.238 -0.2384,0.477 -0.3279,0.715 -0.298,0.626 -0.596,1.222 -0.894,1.818 -0.06,0.03 -0.1192,0.03 -0.1788,0.06 -0.149,0.09 -0.298,0.208 -0.3874,0.357 -0.06,0.149 -0.089,0.328 -0.03,0.477 m 4.0827,-5.751 c 0.9536,-1.997 1.9371,-3.994 3.0397,-5.961 0.298,-0.506 0.596,-1.043 1.1026,-1.4 0.03,-0.03 0.089,-0.06 0.149,-0.09 0.06,-0.03 0.1192,-0.03 0.1789,-0.03 0.06,0 0.1192,0.03 0.1788,0.06 0.06,0.03 0.089,0.09 0.1192,0.149 0.06,0.09 0.089,0.209 0.1192,0.328 0.1192,0.626 0,1.252 -0.2086,1.818 -0.2086,0.596 -0.5365,1.132 -0.8941,1.609 -1.043,1.401 -2.3542,2.533 -3.7847,3.517"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5486" />
+      <path
+         d="m -1501.3941,13011.204 c 0.06,0.06 0.1789,0.119 0.2683,0.149 0.089,0.06 0.2086,0.06 0.298,0.06 0.2384,0 0.4172,-0.09 0.6258,-0.149 0.447,-0.149 0.894,-0.298 1.2814,-0.536 0.149,-0.09 0.298,-0.209 0.4768,-0.238 0.089,-0.03 0.1788,0 0.2682,0.03 0.03,0 0.06,0.03 0.089,0.06 0.03,0.06 0.06,0.09 0.089,0.119 0,0.06 0,0.119 -0.03,0.179 -0.03,0.06 -0.06,0.119 -0.089,0.149 -0.089,0.09 -0.1788,0.149 -0.2682,0.179 -0.7748,0.447 -1.5794,0.924 -2.4436,1.013 -0.447,0.06 -0.8941,-0.03 -1.2815,-0.238 -0.2086,-0.12 -0.3576,-0.269 -0.5066,-0.447 -0.1192,-0.179 -0.2086,-0.388 -0.2384,-0.596 -0.06,-0.328 0,-0.656 0.149,-0.954 0.1192,-0.298 0.298,-0.566 0.447,-0.864 0.6556,-1.103 1.1027,-2.325 1.6093,-3.517 0.2086,-0.506 0.4172,-1.043 0.4172,-1.579 -0.03,-0.209 -0.06,-0.417 0,-0.626 0,-0.119 0.089,-0.268 0.1788,-0.358 0.089,-0.119 0.2086,-0.178 0.3278,-0.238 0.1192,-0.03 0.2682,-0.03 0.4172,-0.03 0.1192,0.03 0.2682,0.09 0.3576,0.179 0.1192,0.119 0.2086,0.238 0.2682,0.387 0.06,0.149 0.06,0.328 0.06,0.477 0,0.298 -0.089,0.626 -0.2086,0.894 -0.6556,1.788 -1.49,3.517 -2.4138,5.156 -0.1193,0.208 -0.2683,0.417 -0.2981,0.655 -0.03,0.12 -0.03,0.239 0,0.358 0,0.119 0.06,0.238 0.149,0.328 m -5.6621,-0.477 c 0.06,0.298 0.2682,0.566 0.5364,0.715 0.2682,0.149 0.5662,0.239 0.894,0.209 0.596,0 1.1623,-0.328 1.6689,-0.686 0.5662,-0.387 1.1026,-0.834 1.4602,-1.43 0.089,-0.149 0.1788,-0.328 0.3278,-0.477 0.06,-0.06 0.149,-0.119 0.2384,-0.149 0.089,-0.03 0.2086,-0.03 0.298,0 0.089,0.06 0.1788,0.149 0.2086,0.239 0.03,0.119 0.06,0.208 0.03,0.327 -0.06,0.209 -0.1788,0.388 -0.3278,0.537 -0.6258,0.685 -1.3708,1.192 -2.1456,1.639 -0.7748,0.447 -1.6093,0.805 -2.5033,0.805 -0.447,0 -0.894,-0.12 -1.2516,-0.358 -0.3874,-0.209 -0.7152,-0.566 -0.8345,-0.984 -0.1788,-0.476 -0.1192,-0.983 0.03,-1.46 0.1491,-0.477 0.3875,-0.924 0.6259,-1.371 0.4172,-0.864 0.7748,-1.758 1.0132,-2.682 0.1192,-0.536 0.2086,-1.102 0.1788,-1.639 -0.03,-0.179 -0.03,-0.328 0,-0.506 0,-0.12 0.06,-0.269 0.149,-0.388 0.089,-0.09 0.2086,-0.179 0.3278,-0.238 0.149,-0.06 0.298,-0.06 0.4172,-0.03 0.149,0 0.2682,0.06 0.3874,0.149 0.1192,0.119 0.2086,0.238 0.2682,0.387 0.06,0.149 0.06,0.328 0.06,0.477 0,0.298 -0.1192,0.626 -0.2086,0.894 -0.5364,1.61 -1.0728,3.219 -1.639,4.798 -0.089,0.179 -0.149,0.388 -0.2086,0.596 -0.03,0.209 -0.06,0.417 0,0.626"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5488" />
+      <path
+         d="m -1493.3064,13006.108 c 0.298,-0.626 0.5662,-0.984 0.9834,-1.55 0.2086,-0.238 0.4471,-0.506 0.7451,-0.655 0.149,-0.09 0.3278,-0.12 0.4768,-0.149 0.1788,0 0.3278,0.03 0.4768,0.119 0.1788,0.119 0.298,0.268 0.3576,0.447 0.06,0.208 0.089,0.387 0.06,0.596 0,0.268 -0.149,0.626 -0.2682,0.864 -0.089,0.268 -0.5364,1.103 -0.8046,1.788 -0.4768,0.984 -0.9537,2.116 -1.3411,3.159 -0.089,0.238 -0.1788,0.507 -0.149,0.745 0,0.149 0.03,0.268 0.089,0.387 0.06,0.12 0.149,0.209 0.2682,0.269 0.149,0.06 0.3279,0.03 0.4769,0 0.1192,-0.06 0.2682,-0.179 0.3576,-0.298 0.1788,-0.239 0.2384,-0.567 0.3278,-0.865 0.5066,-2.354 1.341,-4.708 2.9503,-6.496 0.2086,-0.239 0.447,-0.447 0.745,-0.566 0.149,-0.06 0.298,-0.12 0.4768,-0.09 0.149,0 0.298,0.06 0.447,0.149 0.089,0.09 0.1788,0.179 0.2384,0.328 0.06,0.119 0.06,0.238 0.089,0.387 0,0.269 -0.089,0.537 -0.1788,0.805 -0.5662,1.46 -1.5794,2.712 -2.1159,4.172 -0.1192,0.328 -0.2086,0.626 -0.2384,0.954 -0.03,0.328 0.03,0.685 0.2384,0.953 0.1789,0.269 0.4769,0.477 0.7749,0.567 0.3278,0.09 0.6854,0.09 1.0132,0 0.6556,-0.12 1.2218,-0.477 1.8179,-0.805 0.149,-0.06 0.2682,-0.119 0.3874,-0.238 0.03,-0.06 0.089,-0.12 0.089,-0.209 0.03,-0.06 0.03,-0.149 0,-0.209 -0.03,-0.09 -0.1192,-0.149 -0.2086,-0.178 -0.06,-0.03 -0.1788,-0.03 -0.2682,-0.03 -0.1491,0.06 -0.3279,0.149 -0.4471,0.268 -0.2384,0.149 -0.4768,0.298 -0.7152,0.447 -0.1788,0.09 -0.4172,0.209 -0.6258,0.238 -0.1192,0 -0.2384,0 -0.3576,-0.03 -0.089,-0.03 -0.2086,-0.06 -0.298,-0.149 -0.1192,-0.12 -0.2086,-0.328 -0.2086,-0.507 -0.03,-0.179 0,-0.358 0.06,-0.536 0.1788,-0.745 0.5662,-1.401 0.9536,-2.057 0.4172,-0.625 0.8642,-1.251 1.1622,-1.937 0.2384,-0.506 0.4172,-1.102 0.3874,-1.669 -0.03,-0.298 -0.1192,-0.566 -0.2384,-0.834 -0.149,-0.268 -0.3576,-0.477 -0.596,-0.626 -0.2384,-0.149 -0.5364,-0.208 -0.8046,-0.208 -0.2682,0 -0.5662,0.06 -0.8344,0.149 -0.5066,0.208 -0.9536,0.566 -1.3709,0.953 -0.06,0.06 -0.1192,0.119 -0.1788,0.179 -0.03,-0.06 -0.03,-0.149 -0.06,-0.209 -0.1192,-0.417 -0.4172,-0.804 -0.8046,-0.983 -0.2086,-0.119 -0.4768,-0.149 -0.7152,-0.149 -0.2682,0.03 -0.5066,0.09 -0.7152,0.209 -0.4768,0.208 -0.8643,0.536 -1.2219,0.864 -0.06,0.09 -0.149,0.149 -0.2384,0.208 0,-0.03 0,-0.06 0,-0.09 -0.03,-0.328 -0.149,-0.626 -0.3576,-0.864 -0.1192,-0.119 -0.2682,-0.209 -0.447,-0.268 -0.149,-0.03 -0.3278,-0.03 -0.5066,0.03 -0.1788,0.06 -0.298,0.149 -0.4172,0.298 -0.089,0.149 -0.1192,0.328 -0.089,0.507 0.03,0.179 0.1192,0.328 0.1788,0.507 0.1192,0.327 0.149,0.685 0.089,1.043 -0.06,0.357 -0.1788,0.715 -0.298,1.043 -0.5364,1.43 -1.1921,2.801 -1.7881,4.202 -0.1192,0.268 -0.2384,0.566 -0.2384,0.864 0,0.149 0.03,0.298 0.1192,0.447 0.06,0.119 0.1788,0.238 0.3278,0.298 0.149,0.06 0.3278,0.03 0.4768,-0.03 0.149,-0.06 0.2683,-0.179 0.3875,-0.298 0.1788,-0.238 0.2682,-0.566 0.3576,-0.894 0.298,-1.103 0.6258,-2.235 1.0728,-3.308 0.1788,-0.417 0.4172,-0.894 0.6854,-1.46"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5490" />
+      <path
+         d="m -1476.075,13011.204 c -0.089,-0.09 -0.149,-0.209 -0.149,-0.328 -0.03,-0.119 -0.03,-0.268 0,-0.358 0.06,-0.238 0.1788,-0.476 0.298,-0.685 0.9239,-1.639 1.7583,-3.338 2.4139,-5.126 0.1192,-0.298 0.2086,-0.596 0.2086,-0.924 0.03,-0.149 0,-0.298 -0.06,-0.447 -0.06,-0.149 -0.149,-0.298 -0.2682,-0.387 -0.089,-0.09 -0.2384,-0.149 -0.3874,-0.179 -0.1192,-0.03 -0.2682,0 -0.3874,0.06 -0.149,0.03 -0.2682,0.119 -0.3576,0.238 -0.089,0.119 -0.149,0.239 -0.149,0.388 -0.03,0.149 0,0.327 0,0.476 0,0.567 -0.2086,1.133 -0.4173,1.64 -0.5066,1.221 -0.9834,2.413 -1.6092,3.546 -0.06,0.09 -0.1192,0.179 -0.149,0.268 -0.447,0.626 -0.9834,1.252 -1.6689,1.609 -0.3874,0.209 -0.8046,0.328 -1.2516,0.328 -0.4172,-0.03 -0.8642,-0.179 -1.192,-0.447 -0.3278,-0.328 -0.5066,-0.775 -0.596,-1.222 -0.06,-0.447 0,-0.894 0.089,-1.341 0.149,-0.894 0.4768,-1.758 0.9536,-2.533 0.4768,-0.775 1.1622,-1.43 1.937,-1.848 0.2683,-0.149 0.5365,-0.268 0.8345,-0.327 0.298,-0.03 0.6258,-0.03 0.894,0.09 0.2086,0.119 0.3874,0.268 0.6258,0.358 0.089,0.03 0.2086,0.06 0.3278,0.03 0.1192,0 0.2384,-0.06 0.3278,-0.149 0.06,-0.09 0.089,-0.178 0.06,-0.298 0,-0.09 -0.03,-0.208 -0.1192,-0.268 -0.1192,-0.179 -0.298,-0.268 -0.5066,-0.357 -0.6854,-0.239 -1.4602,-0.179 -2.1754,0 -0.7153,0.208 -1.2815,0.506 -1.9371,1.043 -0.9238,0.774 -1.5794,1.4 -2.0861,2.354 -0.5066,0.924 -0.7748,1.997 -0.6556,3.04 0.06,0.566 0.2384,1.162 0.5662,1.639 0.3576,0.476 0.8047,0.894 1.3709,1.072 0.3874,0.12 0.8344,0.15 1.2516,0.12 0.4172,-0.06 0.8046,-0.179 1.192,-0.358 0.4769,-0.238 0.9239,-0.507 1.3411,-0.805 0.06,0.149 0.1192,0.269 0.2086,0.418 0.149,0.178 0.3278,0.327 0.5066,0.417 0.3874,0.238 0.8344,0.298 1.2814,0.238 0.8941,-0.06 1.6689,-0.566 2.4437,-0.983 0.089,-0.06 0.2086,-0.119 0.2682,-0.209 0.03,-0.03 0.089,-0.09 0.089,-0.119 0.03,-0.06 0.03,-0.119 0.03,-0.179 -0.03,-0.06 -0.03,-0.09 -0.06,-0.119 -0.03,-0.03 -0.089,-0.06 -0.1192,-0.09 -0.089,-0.03 -0.1788,-0.03 -0.2682,-0.03 -0.1788,0.06 -0.3278,0.149 -0.4768,0.268 -0.3874,0.238 -0.8344,0.387 -1.2814,0.536 -0.1788,0.06 -0.3875,0.12 -0.5961,0.12 -0.1192,0 -0.2384,0 -0.3278,-0.03 -0.089,-0.03 -0.2086,-0.06 -0.2682,-0.149"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5492" />
+      <path
+         d="m -1464.3218,12999.462 c 0.1788,0.269 0.6258,0.388 0.9238,0.298 0.596,-0.238 1.0133,-0.983 0.9834,-1.609 0,-0.358 -0.2682,-0.745 -0.6258,-0.894 -0.3874,-0.149 -0.9536,-0.03 -1.2218,0.298 -0.4172,0.507 -0.4172,1.401 -0.06,1.907 m -5.2152,9.447 c 0.8643,-0.477 1.7285,-1.073 2.3543,-1.847 0.1788,-0.209 0.298,-0.418 0.447,-0.656 0.149,-0.268 0.298,-0.536 0.3874,-0.834 0.2086,-0.507 0.298,-1.044 0.3576,-1.61 0.03,-0.119 0.03,-0.268 0.09,-0.417 0.03,-0.149 0.06,-0.298 0.149,-0.417 0.149,-0.209 0.3874,-0.328 0.6556,-0.358 0.2384,0 0.5066,0.119 0.6556,0.328 0.089,0.119 0.1192,0.268 0.149,0.387 0.03,0.149 0.03,0.298 0.03,0.447 -0.03,0.745 -0.2384,1.491 -0.5662,2.146 -0.298,0.686 -0.7152,1.341 -1.1623,1.937 -0.2384,0.358 -0.4768,0.686 -0.6258,1.073 -0.149,0.387 -0.2384,0.834 -0.1192,1.222 0.089,0.268 0.2086,0.477 0.4172,0.655 0.1788,0.179 0.4173,0.328 0.6557,0.418 0.4768,0.149 1.0132,0.149 1.5198,0.03 0.447,-0.119 0.894,-0.298 1.2814,-0.536 0.149,-0.119 0.298,-0.209 0.4769,-0.238 0.089,-0.03 0.1788,-0.03 0.2682,0.03 0.03,0 0.06,0.03 0.089,0.06 0.03,0.03 0.06,0.09 0.06,0.119 0.03,0.06 0,0.119 0,0.179 -0.03,0.06 -0.06,0.09 -0.089,0.149 -0.089,0.06 -0.1788,0.119 -0.298,0.179 -1.0133,0.536 -2.1457,1.043 -3.3079,1.013 -0.5663,0 -1.1623,-0.179 -1.6391,-0.477 -0.5066,-0.328 -0.8642,-0.834 -1.0132,-1.4 -0.06,-0.358 -0.06,-0.716 0.03,-1.073 0,-0.06 0.03,-0.119 0.03,-0.179 -0.3576,0.179 -0.7152,0.358 -1.0728,0.536 -0.1192,0.06 -0.2087,0.09 -0.3279,0.12 -0.06,0.03 -0.089,0.03 -0.149,0.03 -0.06,-0.03 -0.1192,-0.03 -0.1788,-0.06 -0.03,-0.03 -0.06,-0.09 -0.089,-0.119 -0.03,-0.06 -0.03,-0.09 -0.03,-0.149 -0.03,-0.12 0,-0.209 0.06,-0.298 0.06,-0.09 0.149,-0.149 0.2384,-0.239 0.089,-0.06 0.1788,-0.09 0.2682,-0.149"
+         style="font-size:29.80084419px;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="path5494" />
+    </g>
+    <flowRoot
        xml:space="preserve"
        id="flowRoot7267"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -7962,7 +8154,7 @@
        sodipodi:cy="1549.6382"
        sodipodi:rx="29.019142"
        sodipodi:ry="29.019142"
-       d="m 4043.9579,1549.6382 a 29.019142,29.019142 0 1 1 -58.0383,0 29.019142,29.019142 0 1 1 58.0383,0 z"
+       d="m 4043.9579,1549.6382 c 0,16.0268 -12.9923,29.0191 -29.0192,29.0191 -16.0268,0 -29.0191,-12.9923 -29.0191,-29.0191 0,-16.0268 12.9923,-29.0192 29.0191,-29.0192 16.0269,0 29.0192,12.9924 29.0192,29.0192 z"
        transform="translate(238.90925,3166.9911)" />
     <path
        sodipodi:nodetypes="cccc"
@@ -7974,22 +8166,22 @@
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746" />
     <image
-       y="4829.2134"
-       x="4518.7407"
+       y="4803.2451"
+       x="4585.064"
        id="image8333"
        xlink:href="file:///home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/4b07ec6bc7.jpg"
        height="13.870537"
        width="20.753922" />
     <image
-       y="4904.04"
-       x="4748.5005"
+       y="4878.0718"
+       x="5010.7793"
        id="image14131"
        xlink:href="file:///home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/01.png"
        height="14.142141"
        width="19.17046" />
     <image
-       y="4904.04"
-       x="4769.8813"
+       y="4878.0718"
+       x="5032.1602"
        id="image14305"
        xlink:href="file:///home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/09.png"
        height="14.142142"
@@ -8204,18 +8396,6 @@
          id="flowPara5277">en référence à la tradition d'Orwell, ou bien de James Agee-Walker Evans.</flowPara><flowPara
          id="flowPara5114"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed" /></flowRoot>    <rect
-       rx="0"
-       ry="3.5963125"
-       y="2283.074"
-       x="2934.1125"
-       height="65.445305"
-       width="1020.7692"
-       id="rect5152"
-       style="opacity:0.98000004;fill:#dbdbdb;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
-       inkscape:export-xdpi="69.628746"
-       inkscape:export-ydpi="69.628746" />
-    <rect
        style="fill:#cccccc;fill-opacity:1;stroke:none;display:inline"
        id="rect5154"
        width="9.8569469"
@@ -8660,8 +8840,8 @@
        transform="matrix(0,1,-1,0,0,0)"
        rx="0"
        ry="3.596313"
-       y="-5205.2402"
-       x="3458.2178"
+       y="-5206.7412"
+       x="3457.1565"
        height="1001.0019"
        width="9.8569469"
        id="rect6209"
@@ -8997,65 +9177,60 @@
    id="flowSpan5136">Untitiled</flowSpan>, </flowPara><flowPara
            style="font-size:10px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
            id="flowPara5138">de la série Ship of Fools, 2012. </flowPara></flowRoot>    </g>
-    <g
-       id="g6157"
-       style="fill:#ececec"
-       transform="translate(-794.67388,1063.2454)">
-      <rect
-         y="2915.6851"
-         x="5326.0024"
-         height="25.442646"
-         width="374.71689"
-         id="rect6143"
-         style="fill:#ececec;fill-opacity:1;stroke:none" />
-      <rect
-         style="fill:#ececec;fill-opacity:1;stroke:none"
-         id="rect6145"
-         width="319.63611"
-         height="29.187057"
-         x="5326.0024"
-         y="2933.9407" />
-      <rect
-         y="2953.9407"
-         x="5326.0024"
-         height="21.698246"
-         width="395.31113"
-         id="rect6147"
-         style="fill:#ececec;fill-opacity:1;stroke:none" />
-      <rect
-         style="fill:#ececec;fill-opacity:1;stroke:none"
-         id="rect6149"
-         width="392.63586"
-         height="19.826044"
-         x="5326.0024"
-         y="2973.9407" />
-      <rect
-         y="2990.6311"
-         x="5326.0024"
-         height="23.135662"
-         width="400.57895"
-         id="rect6151"
-         style="fill:#ececec;fill-opacity:1;stroke:none" />
-      <rect
-         style="fill:#ececec;fill-opacity:1;stroke:none"
-         id="rect6153"
-         width="400.57895"
-         height="23.135662"
-         x="5326.0024"
-         y="3012.6311" />
-      <rect
-         y="3030.6311"
-         x="5326.0024"
-         height="23.135662"
-         width="296.65695"
-         id="rect6155"
-         style="fill:#ececec;fill-opacity:1;stroke:none" />
-    </g>
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke:none"
+       id="rect6143"
+       width="374.71689"
+       height="25.442646"
+       x="4531.3286"
+       y="3978.9304" />
+    <rect
+       y="3997.186"
+       x="4531.3286"
+       height="29.187057"
+       width="388.88458"
+       id="rect6145"
+       style="fill:#ececec;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke:none"
+       id="rect6147"
+       width="350.29962"
+       height="21.698246"
+       x="4531.3286"
+       y="4017.186" />
+    <rect
+       y="4037.186"
+       x="4531.3286"
+       height="19.826044"
+       width="392.63586"
+       id="rect6149"
+       style="fill:#ececec;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke:none"
+       id="rect6151"
+       width="376.34198"
+       height="23.135662"
+       x="4531.3286"
+       y="4053.8765" />
+    <rect
+       y="4075.8765"
+       x="4531.3286"
+       height="23.135662"
+       width="363.35791"
+       id="rect6153"
+       style="fill:#ececec;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke:none"
+       id="rect6155"
+       width="109.68609"
+       height="23.135662"
+       x="4531.3286"
+       y="4093.8765" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot5192"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(1072.3928,2697.0478)"><flowRegion
+       transform="translate(1072.3928,2699.0478)"><flowRegion
          id="flowRegion5194"><rect
            id="rect5196"
            width="393.59387"
@@ -9063,7 +9238,7 @@
            x="3463.575"
            y="1286.5936" /></flowRegion><flowPara
          id="flowPara5198"
-         style="font-size:15px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic">«Les cargos et la figure du conteneur, ont changé le visage du commerce international, transformant les bateaux en entrepôts flottant, et les usines en navires, voguant vers d’autres pays à la faveur de la nuit pour trouver une main-d’œuvre toujours moins chère»</flowPara></flowRoot>    <flowRoot
+         style="font-size:25px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:69.99999881%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium">les cargos et la figure du conteneur ont change le visage du commerce international, transformant les bateaux en entrepots flottant et les usines en navires voguant vers d autres pays a la faveur de la nuit pour trouver une main d oeuvre toujours moins chere</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot6329"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -9094,12 +9269,1169 @@
            height="37.11116"
            x="3751.6633"
            y="3949.9055" /></flowRegion><flowPara
-         id="flowPara6349"></flowPara></flowRoot>  </g>
+         id="flowPara6349" /></flowRoot>    <g
+       id="g7840"
+       transform="translate(148.30325,-1.9866218)"
+       style="filter:url(#filter8907)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect5191"
+         width="300.05447"
+         height="131.94508"
+         x="6100.0713"
+         y="2950.6975"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5193"
+         style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(2643.9793,1671.8561)"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"><flowRegion
+           id="flowRegion5195"><rect
+             id="rect5197"
+             width="286.41003"
+             height="154.21301"
+             x="3463.575"
+             y="1286.5936" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+           id="flowPara5203">Sa réflexion sur la mondialisation, les &quot;géographies imaginaires et matérielles du monde capitaliste avancé&quot;, passe également par une enquête ininterrompue sur l'espace maritime; d'abord avec la production des livres et des expositions rassemblées sous le titre Fish Story (1989-95), forme hybride comprenant une sorte d'essai expérimental en mots et en images  </flowPara><flowPara
+           id="flowPara7830"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">↪ lire la suite</flowPara><flowPara
+           id="flowPara7826"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed" /><flowPara
+           id="flowPara5205"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed" /></flowRoot>    </g>
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       transform="matrix(0,1,-1,0,0,0)"
+       rx="0"
+       ry="3.596313"
+       y="-5205.6079"
+       x="3459.241"
+       height="1001.0019"
+       width="9.8569469"
+       id="rect5207"
+       style="fill:#cccccc;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       sodipodi:nodetypes="cccccccccc"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none;display:inline"
+       d="m 5693.1171,2324.2803 0,950.1342 1581.4571,0 0,-950.1342 z m 195.8404,116.0389 1000,0 0,680 -1000,0 z"
+       id="path5209"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g7892"
+       transform="translate(70.836264,-24.482036)">
+      <rect
+         y="3001.1235"
+         x="5913.4727"
+         height="103.88393"
+         width="262.19751"
+         id="rect5213"
+         style="fill:#cccccc;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <flowRoot
+         transform="translate(2456.2617,1721.4901)"
+         style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot5215"
+         xml:space="preserve"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"><flowRegion
+           id="flowRegion5217"><rect
+             y="1286.5936"
+             x="3463.575"
+             height="116.51722"
+             width="253.32202"
+             id="rect5219" /></flowRegion><flowPara
+           id="flowPara7798"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed">A partir de 1975, Sekula étend cette stratégie à l'écriture de textes sur la photographie. Il y a, à l'époque, des fossés insondables entre la photo dite &quot;d'art&quot; et son marché naissant, les pratiques conceptuelles utilisant </flowPara><flowPara
+           id="flowPara7832"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed">l'image photographique et le photojournalisme.</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+           id="flowPara5223" /></flowRoot>    </g>
+    <flowRoot
+       transform="matrix(1.0066829,0,0,1.0066829,5297.3873,-8298.1253)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5419"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5421"><rect
+           y="12936.552"
+           x="-1604.6892"
+           height="159.84444"
+           width="224.67714"
+           id="rect5424"
+           style="fill:#000000" /></flowRegion><flowPara
+         id="flowPara5426"
+         style="font-size:26.82075882px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">CHUT UP</flowPara><flowPara
+         id="flowPara5428"
+         style="font-size:26.82075882px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">ACTUALLY SPEAK</flowPara><flowPara
+         style="font-size:29.80084419px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium"
+         id="flowPara5430">chia a fumai </flowPara><flowPara
+         id="flowPara5432"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium" /><flowPara
+         id="flowPara5434"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:AX;-inkscape-font-specification:AX Medium" /></flowRoot>    <g
+       id="g7708"
+       transform="translate(-1344.115,-449.20204)">
+      <rect
+         y="2987.4102"
+         x="7362.2217"
+         height="24.505629"
+         width="395.69998"
+         id="rect5169"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <path
+         style="fill:#808080;stroke:none"
+         d="m 7362.2162,2937.3667 395.6501,0 0,50.4452 -395.6501,0 z"
+         id="path5171"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5173"
+         d="m 7371.9601,2993.5455 0,13.18 8.0872,-6.59 z"
+         style="fill:#ffffff;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <g
+         id="g5175"
+         transform="translate(2527.5678,-110.47783)">
+        <path
+           inkscape:export-ydpi="69.628746"
+           inkscape:export-xdpi="69.628746"
+           inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+           sodipodi:nodetypes="ccccccc"
+           inkscape:connector-curvature="0"
+           id="path5177"
+           d="m 5159.9587,3109.0851 3.3558,-0.249 3.1115,-2.7473 0,8.7119 -3.1115,-2.7473 -3.3558,-0.249 z"
+           style="opacity:0.64227642;fill:#f9f9f9;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="69.628746"
+           inkscape:export-xdpi="69.628746"
+           inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+           sodipodi:nodetypes="csssc"
+           inkscape:connector-curvature="0"
+           id="path5179"
+           d="m 5169.866,3106.316 c 0.5361,0.2271 1.0188,0.5555 1.4242,0.9609 0.8104,0.8106 1.3123,1.9314 1.3123,3.1683 0,1.2369 -0.5019,2.3568 -1.3123,3.1674 -0.4054,0.4062 -0.8881,0.7338 -1.4242,0.9609"
+           style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:export-ydpi="69.628746"
+           inkscape:export-xdpi="69.628746"
+           inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+           style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 5168.5983,3107.7625 c 0.3482,0.1477 0.6618,0.3608 0.9251,0.6246 0.5265,0.5259 0.8526,1.2544 0.8526,2.0581 0,0.8036 -0.3261,1.5313 -0.8526,2.0572 -0.2633,0.2638 -0.5769,0.4769 -0.9251,0.6246"
+           id="path5181"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csssc" />
+      </g>
+      <path
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87400001;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 7734.8351,2997.8902 0,-3.7562 4.4877,0"
+         id="path5183"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path5185"
+         d="m 7749.8053,2997.8902 0,-3.7562 -4.4877,0"
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path5187"
+         d="m 7734.8351,3001.1223 0,3.7562 4.4877,0"
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <path
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 7749.8053,3001.1223 0,3.7562 -4.4877,0"
+         id="path5189"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <rect
+         ry="0"
+         y="-7569.9033"
+         x="2937.3599"
+         height="6.55585"
+         width="50.411926"
+         id="rect5225"
+         style="fill:#ffb380;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect5237"
+         width="50.350666"
+         height="1.4053074"
+         x="2937.3599"
+         y="-7485.3276"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7475.2349"
+         x="2937.3599"
+         height="0.49881119"
+         width="50.332962"
+         id="rect5239"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect5241"
+         width="50.354706"
+         height="1.9139318"
+         x="2937.3599"
+         y="-7472.3677"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7446.1538"
+         x="2937.3599"
+         height="11.84083"
+         width="50.380955"
+         id="rect5243"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect5245"
+         width="50.350666"
+         height="6.9032054"
+         x="2937.3599"
+         y="-7378.751"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7561.4751"
+         x="2937.3599"
+         height="0.38720769"
+         width="50.350666"
+         id="rect5247"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect5249"
+         width="50.350666"
+         height="0.56713384"
+         x="2937.3599"
+         y="-7625.7793"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7628.5352"
+         x="2937.3599"
+         height="0.38720769"
+         width="50.350666"
+         id="rect5251"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect5253"
+         width="50.350666"
+         height="1.1507825"
+         x="2937.3599"
+         y="-7630.2168"
+         ry="0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect5255"
+         width="50.350666"
+         height="2.677932"
+         x="2937.3599"
+         y="-7635.418"
+         ry="0" />
+      <flowRoot
+         transform="matrix(0.87354144,0,0,0.87354144,7272.0171,-7247.9656)"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="flowRoot5261"
+         xml:space="preserve"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"><flowRegion
+           id="flowRegion5263"><rect
+             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+             y="11723.417"
+             x="440.06024"
+             height="16.925303"
+             width="61.253799"
+             id="rect5266" /></flowRegion><flowPara
+           id="flowPara5268">30:22</flowPara></flowRoot>      <path
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7708.1731,2994.9827 14.4036,0"
+         id="path5270"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5272"
+         d="m 7708.1731,2997.1785 14.4036,0"
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7708.1731,2999.3743 14.4036,0"
+         id="path5274"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5276"
+         d="m 7708.1731,3001.5701 14.4036,0"
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7708.1731,3003.7659 9.0436,0"
+         id="path5278"
+         inkscape:connector-curvature="0" />
+      <rect
+         ry="0"
+         y="-7444.2437"
+         x="2937.3599"
+         height="1.9139318"
+         width="50.398548"
+         id="rect5280"
+         style="fill:#cccccc;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         ry="0"
+         y="-7568.0044"
+         x="2937.3599"
+         height="1.4053074"
+         width="50.32539"
+         id="rect5282"
+         style="fill:#ff9955;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect5227"
+         width="55.067833"
+         height="21.715246"
+         x="7570.2476"
+         y="2937.3599"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <flowRoot
+         transform="translate(6559.2334,-8401.5424)"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.98000004;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+         id="flowRoot5229"
+         xml:space="preserve"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"><flowRegion
+           id="flowRegion5231"><rect
+             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+             y="11341.833"
+             x="948.32635"
+             height="40.98745"
+             width="183.97833"
+             id="rect5233" /></flowRegion><flowPara
+           id="flowPara5235"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">15:18,069</flowPara></flowRoot>    </g>
+    <rect
+       y="2946.2898"
+       x="6246.7559"
+       height="136.8976"
+       width="304.30945"
+       id="rect7913"
+       style="opacity:0.98000004;fill:none;stroke:#ffc9a6;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       y="3425.1653"
+       x="5887.9917"
+       height="688.55737"
+       width="1005.8848"
+       id="rect8683"
+       style="fill:#403d3c;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <image
+       y="3461.8909"
+       x="5910.6553"
+       id="image8685"
+       xlink:href="file:///home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/mm-sekula.jpg"
+       height="600.44751"
+       width="775.47632"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect8703"
+       width="300.05447"
+       height="120.45154"
+       x="5947.7407"
+       y="3964.2317"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8705"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(2491.6484,2685.3904)"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><flowRegion
+         id="flowRegion8707"><rect
+           id="rect8709"
+           width="286.41003"
+           height="154.21301"
+           x="3463.575"
+           y="1286.5936" /></flowRegion><flowPara
+         id="flowPara8713"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed">Sa réflexion sur la mondialisation, les &quot;géographies imaginaires et matérielles du monde capitaliste avancé&quot;, passe également par une enquête ininterrompue sur l'espace maritime; d'abord avec la production des livres et des expositions rassemblées sous le titre Fish Story (1989-95), forme hybride comprenant une sorte d'essai expérimental en mots et en images  </flowPara><flowPara
+         id="flowPara8715"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed" /><flowPara
+         id="flowPara8717"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed" /></flowRoot>    <path
+       inkscape:connector-curvature="0"
+       id="path8719"
+       d="m 5693.1171,3312.1732 0,950.1342 1581.4571,0 0,-950.1342 z m 195.8404,116.0389 1000,0 0,680 -1000,0 z"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none;display:inline"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <g
+       transform="translate(-1354.6206,550.09517)"
+       id="g8737">
+      <rect
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect8739"
+         width="395.69998"
+         height="24.505629"
+         x="7362.2217"
+         y="2987.4102" />
+      <path
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path8741"
+         d="m 7362.2162,2937.3667 395.6501,0 0,50.4452 -395.6501,0 z"
+         style="fill:#808080;stroke:none" />
+      <path
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#ffffff;stroke:none"
+         d="m 7371.9601,2993.5455 0,13.18 8.0872,-6.59 z"
+         id="path8743"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <g
+         transform="translate(2527.5678,-110.47783)"
+         id="g8745">
+        <path
+           style="opacity:0.64227642;fill:#f9f9f9;fill-opacity:1;stroke:none"
+           d="m 5159.9587,3109.0851 3.3558,-0.249 3.1115,-2.7473 0,8.7119 -3.1115,-2.7473 -3.3558,-0.249 z"
+           id="path8747"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc"
+           inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+           inkscape:export-xdpi="69.628746"
+           inkscape:export-ydpi="69.628746" />
+        <path
+           style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 5169.866,3106.316 c 0.5361,0.2271 1.0188,0.5555 1.4242,0.9609 0.8104,0.8106 1.3123,1.9314 1.3123,3.1683 0,1.2369 -0.5019,2.3568 -1.3123,3.1674 -0.4054,0.4062 -0.8881,0.7338 -1.4242,0.9609"
+           id="path8749"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csssc"
+           inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+           inkscape:export-xdpi="69.628746"
+           inkscape:export-ydpi="69.628746" />
+        <path
+           sodipodi:nodetypes="csssc"
+           inkscape:connector-curvature="0"
+           id="path8751"
+           d="m 5168.5983,3107.7625 c 0.3482,0.1477 0.6618,0.3608 0.9251,0.6246 0.5265,0.5259 0.8526,1.2544 0.8526,2.0581 0,0.8036 -0.3261,1.5313 -0.8526,2.0572 -0.2633,0.2638 -0.5769,0.4769 -0.9251,0.6246"
+           style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-miterlimit:4;stroke-dasharray:none"
+           inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+           inkscape:export-xdpi="69.628746"
+           inkscape:export-ydpi="69.628746" />
+      </g>
+      <path
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path8753"
+         d="m 7734.8351,2997.8902 0,-3.7562 4.4877,0"
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87400001;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 7749.8053,2997.8902 0,-3.7562 -4.4877,0"
+         id="path8755"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 7734.8351,3001.1223 0,3.7562 4.4877,0"
+         id="path8757"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path8759"
+         d="m 7749.8053,3001.1223 0,3.7562 -4.4877,0"
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#ffb380;fill-opacity:1;stroke:none"
+         id="rect8761"
+         width="50.411926"
+         height="6.55585"
+         x="2937.3599"
+         y="-7569.9033"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7485.3276"
+         x="2937.3599"
+         height="1.4053074"
+         width="50.350666"
+         id="rect8763"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect8765"
+         width="50.332962"
+         height="0.49881119"
+         x="2937.3599"
+         y="-7475.2349"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7472.3677"
+         x="2937.3599"
+         height="1.9139318"
+         width="50.354706"
+         id="rect8767"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect8769"
+         width="50.380955"
+         height="11.84083"
+         x="2937.3599"
+         y="-7446.1538"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7378.751"
+         x="2937.3599"
+         height="6.9032054"
+         width="50.350666"
+         id="rect8771"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect8773"
+         width="50.350666"
+         height="0.38720769"
+         x="2937.3599"
+         y="-7561.4751"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7625.7793"
+         x="2937.3599"
+         height="0.56713384"
+         width="50.350666"
+         id="rect8775"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         id="rect8777"
+         width="50.350666"
+         height="0.38720769"
+         x="2937.3599"
+         y="-7628.5352"
+         ry="0" />
+      <rect
+         ry="0"
+         y="-7630.2168"
+         x="2937.3599"
+         height="1.1507825"
+         width="50.350666"
+         id="rect8779"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <rect
+         ry="0"
+         y="-7635.418"
+         x="2937.3599"
+         height="2.677932"
+         width="50.350666"
+         id="rect8781"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <flowRoot
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         xml:space="preserve"
+         id="flowRoot8783"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         transform="matrix(0.87354144,0,0,0.87354144,7272.0171,-7247.9656)"><flowRegion
+           id="flowRegion8785"><rect
+             id="rect8787"
+             width="61.253799"
+             height="16.925303"
+             x="440.06024"
+             y="11723.417"
+             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'" /></flowRegion><flowPara
+           id="flowPara8789">30:22</flowPara></flowRoot>      <path
+         inkscape:connector-curvature="0"
+         id="path8791"
+         d="m 7708.1731,2994.9827 14.4036,0"
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7708.1731,2997.1785 14.4036,0"
+         id="path8793"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path8795"
+         d="m 7708.1731,2999.3743 14.4036,0"
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 7708.1731,3001.5701 14.4036,0"
+         id="path8797"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path8799"
+         d="m 7708.1731,3003.7659 9.0436,0"
+         style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#cccccc;fill-opacity:1;stroke:none"
+         id="rect8801"
+         width="50.398548"
+         height="1.9139318"
+         x="2937.3599"
+         y="-7444.2437"
+         ry="0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         style="fill:#ff9955;fill-opacity:1;stroke:none"
+         id="rect8803"
+         width="50.32539"
+         height="1.4053074"
+         x="2937.3599"
+         y="-7568.0044"
+         ry="0" />
+      <rect
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         y="2937.3599"
+         x="7570.2476"
+         height="21.715246"
+         width="55.067833"
+         id="rect8805"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <flowRoot
+         inkscape:export-ydpi="69.628746"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         xml:space="preserve"
+         id="flowRoot8807"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.98000004;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+         transform="translate(6559.2334,-8401.5424)"><flowRegion
+           id="flowRegion8809"><rect
+             id="rect8811"
+             width="183.97833"
+             height="40.98745"
+             x="948.32635"
+             y="11341.833"
+             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed" /></flowRegion><flowPara
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+           id="flowPara8813">15:18,069</flowPara></flowRoot>    </g>
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect8943"
+       width="395.69998"
+       height="24.505629"
+       x="7341.4155"
+       y="3513.325" />
+    <path
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path8945"
+       d="m 7341.4098,3463.2814 395.6501,0 0,50.4452 -395.6501,0 z"
+       style="fill:#808080;stroke:none" />
+    <path
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#ff9955;stroke:none"
+       d="m 6308.4319,4340.3591 0,16.3147 10.0105,-8.1574 z"
+       id="path8947"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <g
+       transform="translate(2506.7614,415.43687)"
+       id="g8949">
+      <path
+         style="opacity:0.64227642;fill:#f9f9f9;fill-opacity:1;stroke:none"
+         d="m 5159.9587,3109.0851 3.3558,-0.249 3.1115,-2.7473 0,8.7119 -3.1115,-2.7473 -3.3558,-0.249 z"
+         id="path8951"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <path
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 5169.866,3106.316 c 0.5361,0.2271 1.0188,0.5555 1.4242,0.9609 0.8104,0.8106 1.3123,1.9314 1.3123,3.1683 0,1.2369 -0.5019,2.3568 -1.3123,3.1674 -0.4054,0.4062 -0.8881,0.7338 -1.4242,0.9609"
+         id="path8953"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssc"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+      <path
+         sodipodi:nodetypes="csssc"
+         inkscape:connector-curvature="0"
+         id="path8955"
+         d="m 5168.5983,3107.7625 c 0.3482,0.1477 0.6618,0.3608 0.9251,0.6246 0.5265,0.5259 0.8526,1.2544 0.8526,2.0581 0,0.8036 -0.3261,1.5313 -0.8526,2.0572 -0.2633,0.2638 -0.5769,0.4769 -0.9251,0.6246"
+         style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+         inkscape:export-xdpi="69.628746"
+         inkscape:export-ydpi="69.628746" />
+    </g>
+    <path
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path8957"
+       d="m 7714.0287,3523.8049 0,-3.7562 4.4877,0"
+       style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87400001;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 7728.9989,3523.8049 0,-3.7562 -4.4877,0"
+       id="path8959"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 7714.0287,3527.037 0,3.7562 4.4877,0"
+       id="path8961"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path8963"
+       d="m 7728.9989,3527.037 0,3.7562 -4.4877,0"
+       style="opacity:0.64227642;fill:none;stroke:#e6e6e6;stroke-width:0.87354141;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#ffb380;fill-opacity:1;stroke:none"
+       id="rect8965"
+       width="50.411926"
+       height="6.55585"
+       x="3463.2747"
+       y="-7549.0972"
+       ry="0" />
+    <rect
+       ry="0"
+       y="-7464.5215"
+       x="3463.2747"
+       height="1.4053074"
+       width="50.350666"
+       id="rect8967"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       id="rect8969"
+       width="50.332962"
+       height="0.49881119"
+       x="3463.2747"
+       y="-7454.4287"
+       ry="0" />
+    <rect
+       ry="0"
+       y="-7451.5615"
+       x="3463.2747"
+       height="1.9139318"
+       width="50.354706"
+       id="rect8971"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       id="rect8973"
+       width="50.380955"
+       height="11.84083"
+       x="3463.2747"
+       y="-7425.3477"
+       ry="0" />
+    <rect
+       ry="0"
+       y="-7357.9448"
+       x="3463.2747"
+       height="6.9032054"
+       width="50.350666"
+       id="rect8975"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       id="rect8977"
+       width="50.350666"
+       height="0.38720769"
+       x="3463.2747"
+       y="-7540.6689"
+       ry="0" />
+    <rect
+       ry="0"
+       y="-7604.9731"
+       x="3463.2747"
+       height="0.56713384"
+       width="50.350666"
+       id="rect8979"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       id="rect8981"
+       width="50.350666"
+       height="0.38720769"
+       x="3463.2747"
+       y="-7607.729"
+       ry="0" />
+    <rect
+       ry="0"
+       y="-7609.4106"
+       x="3463.2747"
+       height="1.1507825"
+       width="50.350666"
+       id="rect8983"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       ry="0"
+       y="-7614.6118"
+       x="3463.2747"
+       height="2.677932"
+       width="50.350666"
+       id="rect8985"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <flowRoot
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       xml:space="preserve"
+       id="flowRoot8987"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+       transform="matrix(0.87354144,0,0,0.87354144,7251.2107,-6722.0509)"><flowRegion
+         id="flowRegion8989"><rect
+           id="rect8991"
+           width="61.253799"
+           height="16.925303"
+           x="440.06024"
+           y="11723.417"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'" /></flowRegion><flowPara
+         id="flowPara8993">30:22</flowPara></flowRoot>    <path
+       inkscape:connector-curvature="0"
+       id="path8995"
+       d="m 7687.3667,3520.8974 14.4036,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 7687.3667,3523.0932 14.4036,0"
+       id="path8997"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8999"
+       d="m 7687.3667,3525.289 14.4036,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 7687.3667,3527.4848 14.4036,0"
+       id="path9001"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path9003"
+       d="m 7687.3667,3529.6806 9.0436,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.87400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       id="rect9005"
+       width="50.398548"
+       height="1.9139318"
+       x="3463.2747"
+       y="-7423.4375"
+       ry="0" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       style="fill:#ff9955;fill-opacity:1;stroke:none"
+       id="rect9007"
+       width="50.32539"
+       height="1.4053074"
+       x="3463.2747"
+       y="-7547.1982"
+       ry="0" />
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       y="3463.2747"
+       x="7549.4414"
+       height="21.715246"
+       width="55.067833"
+       id="rect9009"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <flowRoot
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       xml:space="preserve"
+       id="flowRoot9011"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.98000004;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+       transform="translate(6538.427,-7875.6277)"><flowRegion
+         id="flowRegion9013"><rect
+           id="rect9015"
+           width="183.97833"
+           height="40.98745"
+           x="948.32635"
+           y="11341.833"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed" /></flowRegion><flowPara
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="flowPara9017">15:18,069</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path9057"
+       d="m 6040.9728,4357.3522 0,16.3147 -10.0105,-8.1574 z"
+       style="fill:#ff9955;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist02.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+  </g>
   <g
      style="display:inline"
      inkscape:label="2"
      id="layer2"
      inkscape:groupmode="layer">
+    <rect
+       rx="0"
+       ry="3.5963125"
+       y="2068.0259"
+       x="5888.3633"
+       height="37.515644"
+       width="1000.7043"
+       id="rect5576"
+       style="opacity:0.98000004;fill:#dbdbdb;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
     <flowRoot
        inkscape:export-ydpi="69.628746"
        inkscape:export-xdpi="69.628746"
@@ -9293,9 +10625,21 @@
          y="1059.5789"
          x="4975.6528"
          sodipodi:role="line">TAGS</tspan></text>
+    <rect
+       rx="0"
+       ry="3.5963125"
+       y="3086.9016"
+       x="4203.9238"
+       height="65.445305"
+       width="1001.7259"
+       id="rect5152"
+       style="opacity:0.98000004;fill:#dbdbdb;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
     <flowRoot
-       transform="translate(4735.7442,-11009.818)"
-       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(5947.9962,-9846.9627)"
+       style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Louis;-inkscape-font-specification:Louis Medium"
        id="flowRoot5200"
        xml:space="preserve"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
@@ -9304,15 +10648,16 @@
          id="flowRegion5202"><rect
            y="12936.552"
            x="-1604.6892"
-           height="23.353458"
-           width="218.7961"
-           id="rect5204" /></flowRegion><flowPara
+           height="77.02108"
+           width="252.55476"
+           id="rect5204"
+           style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium" /></flowRegion><flowPara
          id="flowPara5206"
-         style="font-size:21px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:LTC Remington Typewriter Pro;-inkscape-font-specification:LTC Remington Typewriter Pro Italic">Allan Playlist </flowPara></flowRoot>    <flowRoot
+         style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium">Allan Playlist </flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5208"
-       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(4611.6845,-10986.655)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(5823.9365,-9809.7997)"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746"><flowRegion
@@ -9324,8 +10669,8 @@
            y="12936.552" /></flowRegion><flowPara
          style="font-size:15px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
          id="flowPara5214">publiée le 21 juin 2013</flowPara></flowRoot>    <flowRoot
-       transform="translate(4610.4577,-11010.792)"
-       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(5822.7097,-9833.9367)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
        id="flowRoot5216"
        xml:space="preserve"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
@@ -9343,8 +10688,8 @@
            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">Société Réaliste</flowSpan></flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       x="3491.2649"
-       y="1930.7993"
+       x="4703.5171"
+       y="3107.655"
        id="text5226"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
@@ -9352,8 +10697,8 @@
        inkscape:export-ydpi="69.628746"><tspan
          id="tspan5228"
          sodipodi:role="line"
-         x="3491.2649"
-         y="1930.7993"
+         x="4703.5171"
+         y="3107.655"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">PLAYLIST LIÉES</tspan></text>
     <image
        style="fill:#b3ff80;stroke:#99ff55;display:inline"
@@ -9361,8 +10706,8 @@
        width="48.377155"
        height="33.250435"
        id="image5230"
-       x="3491.366"
-       y="1936.8162"
+       x="4703.6182"
+       y="3113.6719"
        mask="none"
        xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/Lonzi-1024x687.jpg"
        sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/Lonzi-1024x687.jpg"
@@ -9370,9 +10715,9 @@
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746" />
     <image
-       style="fill:#000000;fill-opacity:0.0458596"
-       y="1936.9397"
-       x="3544.2888"
+       style="fill:#000000;fill-opacity:0.0458596;display:inline"
+       y="3113.7954"
+       x="4756.541"
        id="image5232"
        height="31.48527"
        width="46.644844"
@@ -9382,21 +10727,22 @@
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746" />
     <image
-       style="opacity:0.98000004;filter:url(#filter38380-0)"
+       style="opacity:0.98000004;display:inline;filter:url(#filter38380-0-4)"
        y="11335.563"
        x="-2071.2053"
        id="image5234"
        height="190.11298"
        width="281.64886"
-       transform="matrix(0.16260638,0,0,0.16260638,3941.1548,93.687581)"
+       transform="matrix(0.16260638,0,0,0.16260638,5153.4068,1270.5433)"
        xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
        sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746" />
     <image
-       y="1936.6177"
-       x="3655.5515"
+       style="display:inline"
+       y="3113.4734"
+       x="4867.8037"
        id="image5236"
        height="31.413486"
        width="43.800938"
@@ -9408,47 +10754,47 @@
     <text
        sodipodi:linespacing="125%"
        id="text5238"
-       y="1928.8691"
-       x="3605.7917"
+       y="3105.7249"
+       x="4818.0439"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
        xml:space="preserve"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746"><tspan
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
-         y="1928.8691"
-         x="3605.7917"
+         y="3105.7249"
+         x="4818.0439"
          sodipodi:role="line"
          id="tspan5240">VIDÉOS LIÉES</tspan></text>
     <rect
        ry="0"
-       y="1952.2498"
-       x="3711.8523"
+       y="3129.1055"
+       x="4924.1045"
        height="15.313369"
        width="32.174725"
        id="rect5242"
-       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746" />
     <rect
        ry="0"
-       y="1935.8967"
-       x="3740.5803"
+       y="3112.7524"
+       x="4952.8325"
        height="15.313369"
        width="60.832443"
        id="rect5244"
-       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746" />
     <rect
-       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
        id="rect5246"
        width="24.571657"
        height="15.313369"
-       x="3711.5164"
-       y="1935.8967"
+       x="4923.7686"
+       y="3112.7524"
        ry="0"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
@@ -9456,8 +10802,8 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot5248"
-       style="font-size:8px;font-style:normal;font-weight:normal;line-height:149.00000095%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#80ff80;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(2811.8149,-9822.7837)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:149.00000095%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#80ff80;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(4024.0669,-8645.9274)"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746"><flowRegion
@@ -9474,17 +10820,468 @@
          id="flowPara5256">music   </flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       x="3712.5554"
-       y="1929.3313"
+       x="4924.8076"
+       y="3106.187"
        id="text5258"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
        inkscape:export-xdpi="69.628746"
        inkscape:export-ydpi="69.628746"><tspan
          sodipodi:role="line"
-         x="3712.5554"
-         y="1929.3313"
+         x="4924.8076"
+         y="3106.187"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
          id="tspan5260">TAGS</tspan></text>
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       style="opacity:0.98000004;fill:#cccccc;fill-opacity:1;stroke:none"
+       id="rect5505"
+       width="119.73553"
+       height="190.88391"
+       x="6769.5576"
+       y="2087.0137"
+       ry="3.5963125"
+       rx="0" />
+    <flowRoot
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       xml:space="preserve"
+       id="flowRoot5507"
+       style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Louis;-inkscape-font-specification:Louis Medium"
+       transform="translate(7631.272,-10871.657)"><flowRegion
+         id="flowRegion5509"><rect
+           style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium"
+           id="rect5511"
+           width="252.55476"
+           height="77.02108"
+           x="-1604.6892"
+           y="12936.552" /></flowRegion><flowPara
+         style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium"
+         id="flowPara5513">Allan Playlist </flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       transform="translate(7822.1111,-10856.278)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       id="flowRoot5515"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5517"><rect
+           y="12936.552"
+           x="-1604.6892"
+           height="44.884106"
+           width="270.66525"
+           id="rect5519" /></flowRegion><flowPara
+         id="flowPara5521"
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed">publiée le 21 juin 2013</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       xml:space="preserve"
+       id="flowRoot5523"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(7505.9855,-10858.631)"><flowRegion
+         id="flowRegion5525"><rect
+           id="rect5527"
+           width="270.66525"
+           height="44.884106"
+           x="-1604.6892"
+           y="12936.552" /></flowRegion><flowPara
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+         id="flowPara5529"><flowSpan
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+           id="flowSpan5531">Société Réaliste</flowSpan></flowPara></flowRoot>    <text
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       sodipodi:linespacing="125%"
+       id="text5533"
+       y="2107.7671"
+       x="6780.4629"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         y="2107.7671"
+         x="6780.4629"
+         sodipodi:role="line"
+         id="tspan5535">PLAYLIST LIÉES</tspan></text>
+    <image
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/Lonzi-1024x687.jpg"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/Lonzi-1024x687.jpg"
+       mask="none"
+       y="2113.7839"
+       x="6780.564"
+       id="image5538"
+       height="33.250435"
+       width="48.377155"
+       clip-path="none"
+       style="fill:#b3ff80;stroke:#99ff55;display:inline" />
+    <image
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       width="46.644844"
+       height="31.48527"
+       id="image5540"
+       x="6833.4868"
+       y="2113.9075"
+       style="fill:#000000;fill-opacity:0.0458596;display:inline" />
+    <image
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       transform="matrix(0.16260638,0,0,0.16260638,7115.3673,336.64137)"
+       width="281.64886"
+       height="190.11298"
+       id="image5542"
+       x="-2071.2053"
+       y="11335.563"
+       style="opacity:0.98000004;display:inline;filter:url(#filter38380-0-4)" />
+    <image
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/8632.jpg"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/8632.jpg"
+       width="43.800938"
+       height="31.413486"
+       id="image5544"
+       x="6829.7642"
+       y="2179.5713"
+       style="display:inline" />
+    <text
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="6780.0044"
+       y="2171.8228"
+       id="text5546"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5548"
+         sodipodi:role="line"
+         x="6780.0044"
+         y="2171.8228"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">VIDÉOS LIÉES</tspan></text>
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
+       id="rect5550"
+       width="32.174725"
+       height="15.313369"
+       x="6779.5728"
+       y="2254.0029"
+       ry="0" />
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
+       id="rect5552"
+       width="60.832443"
+       height="15.313369"
+       x="6808.3008"
+       y="2237.6499"
+       ry="0" />
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       ry="0"
+       y="2237.6499"
+       x="6779.2368"
+       height="15.313369"
+       width="24.571657"
+       id="rect5554"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
+    <flowRoot
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       transform="translate(5879.5352,-9521.03)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:149.00000095%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#80ff80;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       id="flowRoot5556"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5558"><rect
+           style="line-height:149.00000095%;fill:#80ff80;fill-opacity:1"
+           y="11758.88"
+           x="901.07574"
+           height="40.063797"
+           width="123.7429"
+           id="rect5560" /></flowRegion><flowPara
+         id="flowPara5562"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">rock   Manchester  </flowPara><flowPara
+         id="flowPara5564"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">music   </flowPara></flowRoot>    <text
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       sodipodi:linespacing="125%"
+       id="text5566"
+       y="2231.0845"
+       x="6780.2759"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan5568"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         y="2231.0845"
+         x="6780.2759"
+         sodipodi:role="line">TAGS</tspan></text>
+    <rect
+       inkscape:export-ydpi="69.628746"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       style="opacity:0.98000004;fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8817"
+       width="1000.7043"
+       height="37.515644"
+       x="5888.3633"
+       y="3054.8738"
+       ry="3.5963125"
+       rx="0" />
+    <flowRoot
+       transform="translate(7631.272,-9884.809)"
+       style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Louis;-inkscape-font-specification:Louis Medium"
+       id="flowRoot8821"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><flowRegion
+         id="flowRegion8823"><rect
+           y="12936.552"
+           x="-1604.6892"
+           height="77.02108"
+           width="252.55476"
+           id="rect8825"
+           style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium" /></flowRegion><flowPara
+         id="flowPara8827"
+         style="font-size:35px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Louis;-inkscape-font-specification:Louis Medium">Allan Playlist </flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8829"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(7822.1111,-9869.43)"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><flowRegion
+         id="flowRegion8831"><rect
+           id="rect8833"
+           width="270.66525"
+           height="44.884106"
+           x="-1604.6892"
+           y="12936.552" /></flowRegion><flowPara
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"
+         id="flowPara8835">publiée le 21 juin 2013</flowPara></flowRoot>    <flowRoot
+       transform="translate(7505.9855,-9871.783)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       id="flowRoot8837"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><flowRegion
+         id="flowRegion8839"><rect
+           y="12936.552"
+           x="-1604.6892"
+           height="44.884106"
+           width="270.66525"
+           id="rect8841" /></flowRegion><flowPara
+         id="flowPara8843"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans Light Condensed"><flowSpan
+           id="flowSpan8845"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">Société Réaliste</flowSpan></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="6395.0859"
+       y="3078.6091"
+       id="text8847"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><tspan
+         id="tspan8849"
+         sodipodi:role="line"
+         x="6395.0859"
+         y="3078.6091"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'">PLAYLIST LIÉES</tspan></text>
+    <image
+       style="fill:#b3ff80;stroke:#99ff55;display:inline"
+       clip-path="none"
+       width="48.377155"
+       height="33.250435"
+       id="image8851"
+       x="6474.5073"
+       y="3058.4146"
+       mask="none"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/Lonzi-1024x687.jpg"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/Lonzi-1024x687.jpg"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <image
+       style="fill:#000000;fill-opacity:0.0458596;display:inline"
+       y="3058.5381"
+       x="6527.4302"
+       id="image8853"
+       height="31.48527"
+       width="46.644844"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <image
+       style="opacity:0.98000004;display:inline;filter:url(#filter38380-0-4)"
+       y="11335.563"
+       x="-2071.2053"
+       id="image8855"
+       height="190.11298"
+       width="281.64886"
+       transform="matrix(0.16260638,0,0,0.16260638,6996.342,1214.4006)"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/daughter.jpg"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <image
+       style="display:inline"
+       y="3057.3303"
+       x="6710.7388"
+       id="image8857"
+       height="31.413486"
+       width="43.800938"
+       xlink:href="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/8632.jpg"
+       sodipodi:absref="/home/ludi/wrk/osp.work.travelling-feministe/sketches/pict/8632.jpg"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8859"
+       y="3078.8381"
+       x="6587.8384"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><tspan
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         y="3078.8381"
+         x="6587.8384"
+         sodipodi:role="line"
+         id="tspan8861">VIDÉOS LIÉES</tspan></text>
+    <rect
+       ry="0"
+       y="3074.2944"
+       x="6795.335"
+       height="15.313369"
+       width="32.174725"
+       id="rect8863"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <rect
+       ry="0"
+       y="3057.9414"
+       x="6824.063"
+       height="15.313369"
+       width="60.832443"
+       id="rect8865"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline"
+       id="rect8867"
+       width="24.571657"
+       height="15.313369"
+       x="6794.999"
+       y="3057.9414"
+       ry="0"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8869"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:149.00000095%;letter-spacing:0px;word-spacing:0px;opacity:0.98000004;fill:#80ff80;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(5895.2978,-8700.7386)"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><flowRegion
+         id="flowRegion8871"><rect
+           id="rect8873"
+           width="123.7429"
+           height="40.063797"
+           x="901.07574"
+           y="11758.88"
+           style="line-height:149.00000095%;fill:#80ff80;fill-opacity:1" /></flowRegion><flowPara
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="flowPara8875">rock   Manchester  </flowPara><flowPara
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="flowPara8877">music   </flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="6768.8716"
+       y="3077.4976"
+       id="text8879"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746"><tspan
+         sodipodi:role="line"
+         x="6768.8716"
+         y="3077.4976"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Open Sans Condensed;-inkscape-font-specification:'Open Sans Condensed, Bold Condensed'"
+         id="tspan8881">TAGS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="6255.6982"
+       y="3707.7373"
+       id="text9068"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan9070"
+         x="6255.6982"
+         y="3707.7373"
+         style="fill:#ff9955">→</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text9072"
+       y="3707.7373"
+       x="-5940.9297"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(-1,1)"><tspan
+         style="fill:#ff9955"
+         y="3707.7373"
+         x="-5940.9297"
+         id="tspan9074"
+         sodipodi:role="line">→</tspan></text>
+    <rect
+       rx="0"
+       ry="3.5963125"
+       y="3088.3096"
+       x="5888.3633"
+       height="4.0798669"
+       width="1000.7043"
+       id="rect9076"
+       style="opacity:0.98000003999999996;fill:#999999;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ludi/wrk/osp.work.travelling-feministe/iceberg/playlist01.png"
+       inkscape:export-xdpi="69.628746"
+       inkscape:export-ydpi="69.628746" />
   </g>
 </svg>
